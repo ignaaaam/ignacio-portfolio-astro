@@ -1,123 +1,2489 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
 ---
 
-<Layout title="Welcome to Astro.">
-	<main>
-		<svg
-			class="astro-a"
-			width="495"
-			height="623"
-			viewBox="0 0 495 623"
-			fill="none"
-			xmlns="http://www.w3.org/2000/svg"
-			aria-hidden="true"
-		>
-			<path
-				fill-rule="evenodd"
-				clip-rule="evenodd"
-				d="M167.19 364.254C83.4786 364.254 0 404.819 0 404.819C0 404.819 141.781 19.4876 142.087 18.7291C146.434 7.33701 153.027 0 162.289 0H332.441C341.703 0 348.574 7.33701 352.643 18.7291C352.92 19.5022 494.716 404.819 494.716 404.819C494.716 404.819 426.67 364.254 327.525 364.254L264.41 169.408C262.047 159.985 255.147 153.581 247.358 153.581C239.569 153.581 232.669 159.985 230.306 169.408L167.19 364.254ZM160.869 530.172C160.877 530.18 160.885 530.187 160.894 530.195L160.867 530.181C160.868 530.178 160.868 530.175 160.869 530.172ZM136.218 411.348C124.476 450.467 132.698 504.458 160.869 530.172C160.997 529.696 161.125 529.242 161.248 528.804C161.502 527.907 161.737 527.073 161.917 526.233C165.446 509.895 178.754 499.52 195.577 500.01C211.969 500.487 220.67 508.765 223.202 527.254C224.141 534.12 224.23 541.131 224.319 548.105C224.328 548.834 224.337 549.563 224.347 550.291C224.563 566.098 228.657 580.707 237.264 593.914C245.413 606.426 256.108 615.943 270.749 622.478C270.593 621.952 270.463 621.508 270.35 621.126C270.045 620.086 269.872 619.499 269.685 618.911C258.909 585.935 266.668 563.266 295.344 543.933C298.254 541.971 301.187 540.041 304.12 538.112C310.591 533.854 317.059 529.599 323.279 525.007C345.88 508.329 360.09 486.327 363.431 457.844C364.805 446.148 363.781 434.657 359.848 423.275C358.176 424.287 356.587 425.295 355.042 426.275C351.744 428.366 348.647 430.33 345.382 431.934C303.466 452.507 259.152 455.053 214.03 448.245C184.802 443.834 156.584 436.019 136.218 411.348Z"
-				fill="url(#paint0_linear_1805_24383)"></path>
-			<defs>
-				<linearGradient
-					id="paint0_linear_1805_24383"
-					x1="247.358"
-					y1="0"
-					x2="247.358"
-					y2="622.479"
-					gradientUnits="userSpaceOnUse"
-				>
-					<stop stop-opacity="0.9"></stop>
-					<stop offset="1" stop-opacity="0.2"></stop>
-				</linearGradient>
-			</defs>
-		</svg>
-		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
-		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
-		<ul role="list" class="link-card-grid">
-			<Card
-				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro works and explore the official API docs."
-			/>
-			<Card
-				href="https://astro.build/integrations/"
-				title="Integrations"
-				body="Supercharge your project with new frameworks and libraries."
-			/>
-			<Card
-				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
-			/>
-			<Card
-				href="https://astro.build/chat/"
-				title="Community"
-				body="Come say hi to our amazing Discord community. ❤️"
-			/>
-		</ul>
-	</main>
+<Layout title="Ignacio Amat Urbina | Full Stack Web Developer">
+	 <!-- Google Tag Manager (noscript) -->
+	 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPB75LJ" height="0" width="0"
+		style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!--==================== HEADER ====================-->
+<header class="header" id="header">
+	<nav class="nav container">
+		<a href="#" class="nav__logo">Ignacio Amat</a>
+
+		<div class="nav__menu" id="nav-menu">
+			<ul class="nav__list grid">
+				<li class="nav__item">
+					<a href="#home" class="nav__link active-link"><i class="uil uil-estate nav__icon"></i> Home</a>
+				</li>
+				<li class="nav__item">
+					<a href="#about" class="nav__link"><i class="uil uil-user nav__icon"></i> About</a>
+				</li>
+				<li class="nav__item">
+					<a href="#skills" class="nav__link"><i class="uil uil-file-alt nav__icon"></i> Skills</a>
+				</li>
+				<li class="nav__item">
+					<a href="#services" class="nav__link"><i class="uil uil-briefcase-alt nav__icon"></i>
+						Services</a>
+				</li>
+				<li class="nav__item">
+					<a href="#portfolio" class="nav__link"><i class="uil uil-scenery nav__icon"></i> Projects</a>
+				</li>
+				<li class="nav__item">
+					<a href="#contact" class="nav__link"><i class="uil uil-message nav__icon"></i> Contact</a>
+				</li>
+				<!-- <li class="nav__item">
+					<a href="#companies" class="nav__link"><i
+							class="uil uil-pricetag-alt nav__icon"></i>Discounts</a>
+				</li> -->
+			</ul>
+			<i class="uil uil-times nav__close" id="nav-close"></i>
+		</div>
+
+		<div class="nav__btns">
+			<!-- Theme change button -->
+			<i class="uil uil-moon change-theme" id="theme-button"></i>
+
+			<div class="nav__toggle" id="nav-toggle">
+				<i class="uil uil-apps"></i>
+			</div>
+		</div>
+	</nav>
+</header>
+
+<!--==================== MAIN ====================-->
+<main class="main">
+	<!--==================== HOME ====================-->
+	<section class="home section" id="home">
+		<div class="home__container container grid">
+			<div class="home__content grid">
+				<div class="home__social">
+					<a href="https://www.linkedin.com/in/ignacio-amat-urbina-789244223/" target="_blank"
+						class="home__social-icon">
+						<i class="uil uil-linkedin-alt"></i>
+					</a>
+					<a href="https://www.behance.net/igna21df" target="_blank" class="home__social-icon">
+						<i class="uil uil-behance"></i>
+					</a>
+					<a href="https://github.com/ignaaaam/" target="_blank" class="home__social-icon">
+						<i class="uil uil-github-alt"></i>
+					</a>
+				</div>
+
+				<div class="home__img">
+					<svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink">
+						<mask id="mask0" mask-type="alpha">
+							<path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+								130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+								97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+								0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+						</mask>
+						<g mask="url(#mask0)">
+							<path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+								165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+								129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+								-0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+							<image class="home__blob-img" x='0' y='-5' href="public/img/profile_picture.jpg" />
+						</g>
+					</svg>
+				</div>
+
+				<div class="home__data">
+					<h1 class="home__title">Hi, I'm Ignacio</h1>
+					<h3 class="home__subtitle">Fullstack web developer</h3>
+					<p class="home__description">Bringing extensive expertise in web design and development, merging aesthetics and functionality seamlessly. Proficient in both back-end and front-end realms, I'm dedicated to creating exceptional digital solutions.
+						<br>
+						<br>
+						I have a strong affinity for <a id="laravel-link" class="home__description__link" href="https://laravel.com/" target="_blank"><b>Laravel</b></a> and leverage it alongside <a id="inertia-link" class="home__description__link" href="https://inertiajs.com/" target="_blank"><b>Inertia</b></a> and <a id="vue-link" class="home__description__link" href="https://vuejs.org/" target="_blank"><b>Vue 3</b></a> to craft dynamic interfaces. Let's collaborate to elevate your online presence with a focus on quality and innovation.
+					</p>
+					<a href="#contact" class="button button--flex">
+						Contact Me<i class="uil uil-message button__icon"></i>
+					</a>
+				</div>
+			</div>
+
+			<div class="home__scroll">
+				<a href="#about" class="home__scroll-button button--flex">
+					<i class="uil uil-mouse-alt home__scroll-mouse"></i>
+					<span class="home__scroll-name">Scroll down</span>
+					<i class="uil uil-arrow-down home__scroll-arrow"></i>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<!--==================== ABOUT ====================-->
+	<section class="about section" id="about">
+		<h2 class="section__title">About Me</h2>
+		<span class="section__subtitle">My introduction</span>
+
+		<div class="about__container container grid">
+			<img src="public/img/about-nobg.png" alt="about-image" class="about__img" loading="lazy">
+
+			<div class="about__data">
+				<p class="about__description"><strong>Full Stack Web Developer</strong>, with extensive knowledge and years of
+					experience, working in web technologies and UI / UX design, delivering quality work.</p>
+					<p class="about__description">Currently mastering the advanced concepts of <strong>Javascript/Laravel</strong> & started to learn about <a href="https://astro.build/" id="astro-link" class="astro-link" target="_blank"><strong>Astro</strong></a>🚀</p>
+				<p class="about__description">I also started learning <strong>Cybersecurity</strong> as a hobby &
+					have <strong>2 years</strong> over my back in this field. I attended multiple cybersecurity
+					courses & conferences to learn more about this.</p>
+
+				<p class="about__description">Been working during the last year on one of the best Marketing Agencies of Spain as back-end developer in Barcelona using <a id="laravel-link" class="home__description__link" href="https://laravel.com/" target="_blank"><b>Laravel</b></a> with <a id="inertia-link" class="home__description__link" href="https://inertiajs.com/" target="_blank"><b>Inertia</b></a> & <a id="vue-link" class="home__description__link" href="https://vuejs.org/" target="_blank"><b>Vue 3</b></a> building things for top level companies. </p>
+
+				<div class="about__info">
+					<div>
+						<span class="about__info-title">04+</span>
+						<span class="about__info-name">Years <br> experience</span>
+					</div>
+
+					<div>
+						<span class="about__info-title">20+</span>
+						<span class="about__info-name">Completed <br> project</span>
+					</div>
+
+					<div>
+						<span class="about__info-title">02+</span>
+						<span class="about__info-name">Companies <br> worked</span>
+					</div>
+				</div>
+
+				<div class="about__buttons">
+					<a download="" href="public/pdf/Ignacio CV.pdf" class="button button--flex">
+						Download CV<i class="uil uil-download-alt button__icon"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<!--==================== SKILLS ====================-->
+	<section class="skills section" id="skills">
+		<h2 class="section__title">Skills</h2>
+		<span class="section__subtitle">My technical level</span>
+		<div class="skills__container container grid">
+			<div>
+				<!--==================== SKILLS 1 ====================-->
+				<div class="skills__content skills__open">
+					<div class="skills__header">
+						<i class="uil uil-brackets-curly skills__icon"></i>
+
+						<div>
+							<h1 class="skills__titles">Frontend developer</h1>
+							<span class="skills__subtitle">More than 4 years</span>
+						</div>
+
+						<i class="uil uil-angle-down skills__arrow"></i>
+					</div>
+
+					<div class="skills__list grid">
+						<div class="skills__data">
+							<div class="skills__titles">
+								<h3 class="skills__name">HTML</h3>
+								<span class="skills__number">95%</span>
+							</div>
+							<div class="skills__bar">
+								<span class="skills__percentage skills__html"></span>
+							</div>
+						</div>
+						<div class="skills__data">
+							<div class="skills__titles">
+								<h3 class="skills__name">CSS</h3>
+								<span class="skills__number">80%</span>
+							</div>
+							<div class="skills__bar">
+								<span class="skills__percentage skills__css"></span>
+							</div>
+						</div>
+						<div class="skills__data">
+							<div class="skills__titles">
+								<h3 class="skills__name">JavaScript</h3>
+								<span class="skills__number">65%</span>
+							</div>
+							<div class="skills__bar">
+								<span class="skills__percentage skills__js"></span>
+							</div>
+						</div>
+						<div class="skills__data">
+							<div class="skills__titles">
+								<h3 class="skills__name">Bootstrap</h3>
+								<span class="skills__number">60%</span>
+							</div>
+							<div class="skills__bar">
+								<span class="skills__percentage skills__bootstrap"></span>
+							</div>
+						</div>
+						<div class="skills__data">
+							<div class="skills__titles">
+								<h3 class="skills__name">TailwindCSS</h3>
+								<span class="skills__number">90%</span>
+							</div>
+							<div class="skills__bar">
+								<span class="skills__percentage skills__tw"></span>
+							</div>
+						</div>
+						<div class="skills__data">
+							<div class="skills__titles">
+								<h3 class="skills__name">React</h3>
+								<span class="skills__number">In Progress...</span>
+							</div>
+							<div class="skills__bar">
+								<span class="skills__percentage skills__react"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--==================== SKILLS 2 ====================-->
+				<div class="skills__content skills__close">
+					<div class="skills__header">
+						<i class="uil uil-server-network skills__icon"></i>
+
+						<div>
+							<h1 class="skills__titles">Backend developer</h1>
+							<span class="skills__subtitle">More than 2 years</span>
+						</div>
+
+						<i class="uil uil-angle-down skills__arrow"></i>
+					</div>
+
+					<div class="skills__list grid">
+						<div class="skills__data">
+							<div class="skills__titles">
+								<h3 class="skills__name">PHP</h3>
+								<span class="skills__number">80%</span>
+							</div>
+							<div class="skills__bar">
+								<span class="skills__percentage skills__php"></span>
+							</div>
+						</div>
+						<div class="skills__data">
+							<div class="skills__titles">
+								<h3 class="skills__name">Laravel</h3>
+								<span class="skills__number">85%</span>
+							</div>
+							<div class="skills__bar">
+								<span class="skills__percentage skills__laravel"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div>
+				<!--==================== SKILLS 3 ====================-->
+				<div class="skills__content skills__close">
+					<div class="skills__header">
+						<i class="uil uil-swatchbook skills__icon"></i>
+
+						<div>
+							<h1 class="skills__titles">Designer</h1>
+							<span class="skills__subtitle">More than 4 years</span>
+						</div>
+
+						<i class="uil uil-angle-down skills__arrow"></i>
+					</div>
+
+					<div class="skills__list grid">
+						<div class="skills__data">
+							<div class="skills__titles">
+								<h3 class="skills__name">Figma</h3>
+								<span class="skills__number">80%</span>
+							</div>
+							<div class="skills__bar">
+								<span class="skills__percentage skills__figma"></span>
+							</div>
+						</div>
+						<div class="skills__data">
+							<div class="skills__titles">
+								<h3 class="skills__name">Photoshop</h3>
+								<span class="skills__number">50%</span>
+							</div>
+							<div class="skills__bar">
+								<span class="skills__percentage skills__photoshop"></span>
+							</div>
+						</div>
+						<div class="skills__data">
+							<div class="skills__titles">
+								<h3 class="skills__name">Adobe XD</h3>
+								<span class="skills__number">60%</span>
+							</div>
+							<div class="skills__bar">
+								<span class="skills__percentage skills__adobexd"></span>
+							</div>
+						</div>
+						<div class="skills__data">
+							<div class="skills__titles">
+								<h3 class="skills__name">Illustrator</h3>
+								<span class="skills__number">30%</span>
+							</div>
+							<div class="skills__bar">
+								<span class="skills__percentage skills__illustrator"></span>
+							</div>
+						</div>
+						<div class="skills__data">
+							<div class="skills__titles">
+								<h3 class="skills__name">After Effects</h3>
+								<span class="skills__number">45%</span>
+							</div>
+							<div class="skills__bar">
+								<span class="skills__percentage skills__aftereffects"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--==================== QUALIFICATION ====================-->
+	<section class="qualification section">
+		<h2 class="section__title">Qualification</h2>
+		<span class="section__subtitle">My personal journey</span>
+
+		<div class="qualification__container container">
+			<div class="qualification__tabs">
+				<div class="qualification__button button--flex qualification__active">
+					<i class="uil uil-graduation-cap qualification__icon"></i>
+					Education
+				</div>
+
+				<div class="qualification__button button--flex">
+					<i class="uil uil-briefcase-alt qualification__icon"></i>
+					Work
+				</div>
+			</div>
+
+			<div class="qualification__sections">
+				<!--==================== QUALIFICATION CONTENT 1 ====================-->
+				<div class="qualification__content qualification__active">
+					<!--==================== QUALIFICATION 0 ====================-->
+
+					<div class="qualification__data qualification__separation">
+						<div></div>
+
+						<div>
+							<span class="qualification__rounder rounder__fix"></span>
+							<span class="qualification__line"></span>
+						</div>
+
+						<div>
+							<h3 class="qualification__title">Full Stack Web Developer at <a target="_blank" class="job__link" href="https://manifiesto.biz/">MANIFIESTO</a>💓</h3>
+							<span class="qualification__subtitle">Spain, Barcelona</span>
+							<div class="qualification__calendar">
+								<i class="uil uil-calendar-alt"></i>
+								Aug 2022 - Present
+							</div>
+						</div>
+					</div>
+					<!--==================== QUALIFICATION 1 ====================-->
+					<div class="qualification__data">
+						<div></div>
+
+						<div>
+							<span class="qualification__rounder"></span>
+							<span class="qualification__line"></span>
+						</div>
+
+						<div>
+							<h3 class="qualification__title">Full Stack Web Developer at VILAX Marketing Agency</h3>
+							<span class="qualification__subtitle">Spain</span>
+							<div class="qualification__calendar">
+								<i class="uil uil-calendar-alt"></i>
+								2021 - 2022
+							</div>
+						</div>
+					</div>
+					<!--==================== QUALIFICATION 2 ====================-->
+					<div class="qualification__data">
+						<div>
+							<h3 class="qualification__title">Web Development Applications</h3>
+							<span class="qualification__subtitle">Spain, Barcelona - Academia Nuria</span>
+							<div class="qualification__calendar">
+								<i class="uil uil-calendar-alt"></i>
+								2018 - 2022
+							</div>
+						</div>
+
+						<div>
+							<span class="qualification__rounder"></span>
+							<span class="qualification__line"></span>
+						</div>
+					</div>
+
+					<!--==================== QUALIFICATION 3 ====================-->
+					<div class="qualification__data">
+						<div></div>
+
+						<div>
+							<span class="qualification__rounder"></span>
+							<span class="qualification__line"></span>
+						</div>
+
+						<div>
+							<h3 class="qualification__title">Freelance Web Development</h3>
+							<span class="qualification__subtitle">Remote</span>
+							<div class="qualification__calendar">
+								<i class="uil uil-calendar-alt"></i>
+								2019 - 2020
+							</div>
+						</div>
+					</div>
+
+					<!--==================== QUALIFICATION 4 ====================-->
+					<div class="qualification__data">
+						<div>
+							<h3 class="qualification__title">IT System & Networking</h3>
+							<span class="qualification__subtitle">Spain, Barcelona - Academia Nuria</span>
+							<div class="qualification__calendar">
+								<i class="uil uil-calendar-alt"></i>
+								2014 - 2016
+							</div>
+						</div>
+
+						<div>
+							<span class="qualification__rounder"></span>
+							<!-- <span class="qualification__line"></span> -->
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--==================== CERTIFICATION ====================-->
+	<section class="certifications section">
+		<h2 class="section__title">Certifications</h2>
+		<span class="section__subtitle">My certifications during my journey</span>
+
+		<div class="certification__container container">
+			<div class="certification__tabs">
+				<div class="certification__button button--flex certification__active">
+					<i class="uil uil-file-landscape-alt certification__icon"></i>
+					Education
+				</div>
+
+				<div class="certification__button button--flex ">
+					<i class="uil uil-trophy certification__icon"></i>
+					Hobby
+				</div>
+			</div>
+
+			<div class="certification__sections">
+				<!--==================== CERTIFICATION CONTENT 1 ====================-->
+				<div class="certification__content certification__active">
+					<!--==================== CERTIFICATION 1 ====================-->
+					<div class="certification__data">
+						<div>
+							<h3 class="certification__title">What's new in Laravel 9 & Eloquent Relationships</h3>
+							<span class="certification__subtitle">Laracasts</span>
+							<div class="certification__calendar">
+								<i class="uil uil-calendar-alt"></i>
+								2022 - 2022
+							</div>
+						</div>
+
+						<div>
+							<span class="certification__rounder"></span>
+							<span class="certification__line"></span>
+						</div>
+					</div>
+					<!--==================== CERTIFICATION 1 ====================-->
+					<div class="certification__data">
+						<div>
+							<h3 class="certification__title">LARAVEL 8 FROM SCRATCH</h3>
+							<span class="certification__subtitle">Laracasts</span>
+							<div class="certification__calendar">
+								<i class="uil uil-calendar-alt"></i>
+								2022 - 2022
+							</div>
+						</div>
+
+						<div>
+							<span class="certification__rounder"></span>
+							<span class="certification__line"></span>
+						</div>
+					</div>
+					<!--==================== CERTIFICATION 2 ====================-->
+					<div class="certification__data">
+						<div>
+							<h3 class="certification__title">The Complete JavaScript Course 2021: From Zero to
+								Expert!</h3>
+							<span class="certification__subtitle">Udemy - Jonas Schmedtmann</span>
+							<div class="certification__calendar">
+								<i class="uil uil-calendar-alt"></i>
+								2021 - Actual
+							</div>
+						</div>
+
+						<div>
+							<span class="certification__rounder"></span>
+							<span class="certification__line"></span>
+						</div>
+					</div>
+
+					<!--==================== CERTIFICATION 3 ====================-->
+					<div class="certification__data">
+						<div></div>
+
+						<div>
+							<span class="certification__rounder"></span>
+							<span class="certification__line"></span>
+						</div>
+
+						<div>
+							<h3 class="certification__title">C1B3RWALL CYBERSECURITY COURSE</h3>
+							<span class="certification__subtitle">Course from Police of Spain</span>
+							<div class="certification__calendar">
+								<i class="uil uil-calendar-alt"></i>
+								2020 - 2020
+							</div>
+						</div>
+					</div>
+
+					<!--==================== CERTIFICATION 4 ====================-->
+					<div class="certification__data">
+						<div></div>
+
+						<div>
+							<span class="certification__rounder"></span>
+							<span class="certification__line"></span>
+						</div>
+
+						<div>
+							<h3 class="certification__title">INTELCON 2020 CYBERSECURITY</h3>
+							<span class="certification__subtitle">GINSEG</span>
+							<div class="certification__calendar">
+								<i class="uil uil-calendar-alt"></i>
+								2020 - 2020
+							</div>
+						</div>
+					</div>
+
+					<!--==================== CERTIFICATION 5 ====================-->
+					<div class="certification__data">
+						<div>
+							<h3 class="certification__title">LARAVEL 6 FROM SCRATCH</h3>
+							<span class="certification__subtitle">LARACASTS</span>
+							<div class="certification__calendar">
+								<i class="uil uil-calendar-alt"></i>
+								2020 - 2020
+							</div>
+						</div>
+
+						<div>
+							<span class="certification__rounder"></span>
+							<span class="certification__line"></span>
+						</div>
+					</div>
+
+					<!--==================== CERTIFICATION 6 ====================-->
+					<div class="certification__data">
+						<div>
+							<h3 class="certification__title">Advanced CSS and Sass: Flexbox, Grid, Animations and
+								More!</h3>
+							<span class="certification__subtitle">Udemy - Jonas Schmedtmann</span>
+							<div class="certification__calendar">
+								<i class="uil uil-calendar-alt"></i>
+								2019 - 2019
+							</div>
+						</div>
+
+						<div>
+							<span class="certification__rounder"></span>
+							<span class="certification__line"></span>
+						</div>
+					</div>
+
+					<!--==================== CERTIFICATION 7 ====================-->
+					<div class="certification__data">
+						<div>
+							<h3 class="certification__title">Build Responsive Real-World Websites with HTML and CSS
+							</h3>
+							<span class="certification__subtitle">Udemy - Jonas Schmedtmann</span>
+							<div class="certification__calendar">
+								<i class="uil uil-calendar-alt"></i>
+								2018 - 2018
+							</div>
+						</div>
+
+						<div>
+							<span class="certification__rounder"></span>
+							<!-- <span class="certification__line"></span> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--==================== SERVICES ====================-->
+	<section class="services section" id="services">
+		<h2 class="section__title">Services</h2>
+		<span class="section__subtitle">What I Offer</span>
+
+		<div class="services__container container grid">
+			<!--==================== SERVICES 1 ====================-->
+			<div class="services__content">
+				<div>
+					<i class="uil uil-web-grid services__icon"></i>
+					<h3 class="services__title">UI/UX <br> Designer</h3>
+				</div>
+
+				<span class="button button--flex button--small button--link services__button">
+					View More
+					<i class="uil uil-arrow-right button__icon"></i>
+				</span>
+
+
+			</div>
+			<div class="services__modal">
+				<div class="services__modal-content">
+					<h4 class="services__modal-title">UI/UX <br> Designer</h4>
+					<i class="uil uil-times services__modal-close"></i>
+
+					<ul class="services__modal-services grid">
+						<li class="services__modal-service">
+							<i class="uil uil-check-circle services__modal-icon"></i>
+							<p>I develop the user interface</p>
+						</li>
+						<li class="services__modal-service">
+							<i class="uil uil-check-circle services__modal-icon"></i>
+							<p>Design all the usability.</p>
+						</li>
+						<li class="services__modal-service">
+							<i class="uil uil-check-circle services__modal-icon"></i>
+							<p>I create a good UI that adapts the user needs.</p>
+						</li>
+						<li class="services__modal-service">
+							<i class="uil uil-check-circle services__modal-icon"></i>
+							<p>Adapt the company mindset to an usable enviroment.</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--==================== SERVICES 2 ====================-->
+			<div class="services__content">
+				<div>
+					<i class="uil uil-arrow services__icon"></i>
+					<h3 class="services__title">Frontend <br> Developer</h3>
+				</div>
+
+				<span class="button button--flex button--small button--link services__button">
+					View More
+					<i class="uil uil-arrow-right button__icon"></i>
+				</span>
+
+
+			</div>
+			<div class="services__modal">
+				<div class="services__modal-content">
+					<h4 class="services__modal-title">Frontend <br> Developer</h4>
+					<i class="uil uil-times services__modal-close"></i>
+
+					<ul class="services__modal-services grid">
+						<li class="services__modal-service">
+							<i class="uil uil-check-circle services__modal-icon"></i>
+							<p>I code the user frontend, what the user sees</p>
+						</li>
+						<li class="services__modal-service">
+							<i class="uil uil-check-circle services__modal-icon"></i>
+							<p>Entire Web page development.</p>
+						</li>
+						<li class="services__modal-service">
+							<i class="uil uil-check-circle services__modal-icon"></i>
+							<p>Using latest technologies, such as <a id="vue-link" class="home__description__link" href="https://vuejs.org/" target="_blank"><b>Vue 3</b></a> <a id="tailwind-link" class="home__description__link" href="https://tailwindcss.com/" target="_blank"><b>TailwindCSS</b></a>, Javascript ES8-ES9</p>
+						</li>
+						<li class="services__modal-service">
+							<i class="uil uil-check-circle services__modal-icon"></i>
+							<p>Good HTML structure and clean CSS to allow good customization and reusability</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--==================== SERVICES 3 ====================-->
+			<div class="services__content">
+				<div>
+					<i class="uil uil-pen services__icon"></i>
+					<h3 class="services__title">Backend <br> Developer</h3>
+				</div>
+
+				<span class="button button--flex button--small button--link services__button">
+					View More
+					<i class="uil uil-arrow-right button__icon"></i>
+				</span>
+
+
+			</div>
+			<div class="services__modal">
+				<div class="services__modal-content">
+					<h4 class="services__modal-title">Backend <br> Developer</h4>
+					<i class="uil uil-times services__modal-close"></i>
+
+					<ul class="services__modal-services grid">
+						<li class="services__modal-service">
+							<i class="uil uil-check-circle services__modal-icon"></i>
+							<p>I develop the logic of the website, the brain of what's behind a website</p>
+						</li>
+						<li class="services__modal-service">
+							<i class="uil uil-check-circle services__modal-icon"></i>
+							<p>Using different technologies, such as PHP + <a id="laravel-link" class="home__description__link" href="https://laravel.com/" target="_blank"><b>Laravel</b></a> framework & in the future
+								Javascript (React)</p>
+						</li>
+						<li class="services__modal-service">
+							<i class="uil uil-check-circle services__modal-icon"></i>
+							<p>I adapt to company needs, It can be a following user system, a like system between
+								users, an application that let users store/upload pictures or just a simple
+								application with user login/registration, actually anything you can think of... </p>
+						</li>
+						<li class="services__modal-service">
+							<i class="uil uil-check-circle services__modal-icon"></i>
+							<p>Make your website adapt to the dynamic data that users create and make the users
+								interact between them & your website.</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<!--==================== PORTFOLIO ====================-->
+	<section class="portfolio section" id="portfolio">
+		<h2 class="section__title">Projects</h2>
+		<span class="section__subtitle">Most recent work</span>
+
+		<div class="portfolio__container container swiper">
+			<div class="swiper-wrapper">
+				<!--==================== PORTFOLIO 1 ====================-->
+				<div class="portfolio__content grid swiper-slide">
+					<img src="public/img/entire1.png" alt="omnifood-website" class="portfolio__img"
+						loading="lazy">
+
+					<div class="portfolio__data">
+						<h3 class="portfolio__title">Trycat Website (Wordle Game)</h3>
+						<p class="portfolio__description">Website made to master AlpineJS, it's a clone of the popular Wordle Game </p>
+						<a href="https://github.com/ignaaaam/WordleGame" target="_blank"
+							class="button button--flex button--small portfolio__button">
+							Visit Code
+							<i class="uil uil-arrow-right button__icon"></i>
+						</a>
+					</div>
+				</div>
+				<!--==================== PORTFOLIO 2 ====================-->
+				<div class="portfolio__content grid swiper-slide">
+					<img src="public/img/showcase0.png" alt="halloween-website" class="portfolio__img"
+						loading="lazy">
+
+					<div class="portfolio__data">
+						<h3 class="portfolio__title">Halloween Website</h3>
+						<p class="portfolio__description">Responsive website that simulates a halloween store, just
+							frontend using HTML CSS and JavaScript, used some JS libraries and added some CSS
+							animations.</p>
+						<a href="https://www.spookyhalloween.art/" target="_blank"
+							class="button button--flex button--small portfolio__button">
+							Visit Website
+							<i class="uil uil-arrow-right button__icon"></i>
+						</a>
+					</div>
+				</div>
+
+				<!--==================== PORTFOLIO 3 ====================-->
+				<div class="portfolio__content grid swiper-slide">
+					<img src="public/img/showcase1.png" alt="natours-website" class="portfolio__img outdoors__img"
+						loading="lazy">
+
+					<div class="portfolio__data">
+						<h3 class="portfolio__title">Natours Website</h3>
+						<p class="portfolio__description">Website about Nature tours, made on a course while I was
+							mastering HTML & CSS skills. It's a landing page that has clean UI all entirely made
+							with pure HTML & CSS. </p>
+						<a href="https://websiteproject-natours.netlify.app/" target="_blank"
+							class="button button--flex button--small portfolio__button">
+							Visit Website
+							<i class="uil uil-arrow-right button__icon"></i>
+						</a>
+					</div>
+				</div>
+
+				<!--==================== PORTFOLIO 4 ====================-->
+				<div class="portfolio__content grid swiper-slide">
+					<img src="public/img/showcase2.png" alt="omnifood-website" class="portfolio__img"
+						loading="lazy">
+
+					<div class="portfolio__data">
+						<h3 class="portfolio__title">Omnifood Website</h3>
+						<p class="portfolio__description">Website about healthy food delivery made in my initial
+							days of learning HTML & CSS while I was starting to learn basic technologies. </p>
+						<a href="https://omnifoodrestaurant.netlify.app/" target="_blank"
+							class="button button--flex button--small portfolio__button">
+							Visit Website
+							<i class="uil uil-arrow-right button__icon"></i>
+						</a>
+					</div>
+				</div>
+				<!--==================== PORTFOLIO 5 ====================-->
+				<div class="portfolio__content grid swiper-slide">
+					<img src="public/img/github-showcase.png" alt="github-profile" class="portfolio__img"
+						loading="lazy">
+
+					<div class="portfolio__data">
+						<h3 class="portfolio__title">Other projects</h3>
+						<p class="portfolio__description">Take a look at my github profile to check more advanced projects (frontend/backend) to know more about my abilities & technologies I'm lerning! </p>
+						<a href="https://github.com/ignaaaam" target="_blank"
+							class="button button--flex button--small portfolio__button">
+							Visit Github
+							<i class="uil uil-arrow-right button__icon"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Swiper Arrows -->
+			<div class="swiper-button-next">
+				<i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+			</div>
+			<div class="swiper-button-prev">
+				<i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+			</div>
+
+			<!-- Swiper Pagination -->
+			<div class="swiper-pagination swiper-pagination-portfolio">
+			</div>
+		</div>
+	</section>
+
+	<!--==================== PROJECT IN MIND ====================-->
+	<section class="project section">
+		<div class="project__bg">
+			<div class="project__container container grid" style="padding-bottom: 4rem;">
+				<div class="project__data">
+					<h2 class="project__title">You have a new project</h2>
+					<p class="project__description">Contact me now and get a 30% discount on your new project.</p>
+					<a href="#contact" class="button button--flex button--white">
+						Contact Me
+						<i class="uil uil-message project__icon button__icon"></i>
+					</a>
+				</div>
+
+				<img src="public/img/Contact-us.png" alt="contact-us" class="project__img" loading="lazy">
+			</div>
+		</div>
+
+	</section>
+
+	<!--==================== TESTIMONIAL ====================-->
+	<section class="testimonial section">
+		<h2 class="section__title">Testimonial</h2>
+		<span class="section__subtitle">My client saying</span>
+
+		<div class="testimonial__container container swiper">
+			<div class="swiper-wrapper">
+				<!--==================== TESTIMONIAL 1 ====================-->
+				<div class="testimonial__content swiper-slide">
+					<div class="testimonial__data">
+						<div class="testimonial__header">
+							<img src="public/img/testimonial1.jpg" alt="testimonial1" class="testimonial__img"
+								loading="lazy">
+
+							<div>
+								<h3 class="testimonial__name">Dr. Wofford</h3>
+								<span class="testimonial__client">Client</span>
+							</div>
+						</div>
+
+						<div>
+							<i class="uil uil-star testimonial__icon-star"></i>
+							<i class="uil uil-star testimonial__icon-star"></i>
+							<i class="uil uil-star testimonial__icon-star"></i>
+							<i class="uil uil-star testimonial__icon-star"></i>
+							<i class="uil uil-star testimonial__icon-star"></i>
+						</div>
+					</div>
+
+					<p class="testimonial__description">
+						Ignacio completed the work perfectly. He communicated very well and was diligent in his
+						efforts. 5 STARS for sure!
+					</p>
+				</div>
+				<!--==================== TESTIMONIAL 2 ====================-->
+				<div class="testimonial__content swiper-slide">
+					<div class="testimonial__data">
+						<div class="testimonial__header">
+							<img src="public/img/testimonial2.jpg" alt="testimonial2" class="testimonial__img"
+								loading="lazy">
+
+							<div>
+								<h3 class="testimonial__name">Arash Akhavan </h3>
+								<span class="testimonial__client">Client</span>
+							</div>
+						</div>
+
+						<div>
+							<i class="uil uil-star testimonial__icon-star"></i>
+							<i class="uil uil-star testimonial__icon-star"></i>
+							<i class="uil uil-star testimonial__icon-star"></i>
+							<i class="uil uil-star testimonial__icon-star"></i>
+							<i class="uil uil-star testimonial__icon-star"></i>
+						</div>
+					</div>
+
+					<p class="testimonial__description">
+						Ignacio did a fantastic job! I think I have found a long-term partner here!
+					</p>
+				</div>
+				<!--==================== TESTIMONIAL 3 ====================-->
+				<div class="testimonial__content swiper-slide">
+					<div class="testimonial__data">
+						<div class="testimonial__header">
+							<img src="public/img/testimonial3.jpg" alt="testimonial3" class="testimonial__img"
+								loading="lazy">
+
+							<div>
+								<h3 class="testimonial__name">Raul Harris</h3>
+								<span class="testimonial__client">Client</span>
+							</div>
+						</div>
+
+						<div>
+							<i class="uil uil-star testimonial__icon-star"></i>
+							<i class="uil uil-star testimonial__icon-star"></i>
+							<i class="uil uil-star testimonial__icon-star"></i>
+							<i class="uil uil-star testimonial__icon-star"></i>
+							<i class="uil uil-star testimonial__icon-star"></i>
+						</div>
+					</div>
+
+					<p class="testimonial__description">
+						Definitely worth the investment. I'd be lost without Ignacio. It's exactly what I've been
+						looking for.
+					</p>
+				</div>
+			</div>
+			<!-- Swiper Pagination -->
+			<div class="swiper-pagination swiper-pagination-testimonial"></div>
+		</div>
+	</section>
+
+	<!--==================== CONTACT ME ====================-->
+	<section class="contact section" id="contact">
+		<h2 class="section__title">Contact Me</h2>
+		<span class="section__subtitle">Get in touch</span>
+
+		<div class="contact__container container grid">
+			<div>
+				<div class="contact__information">
+					<i class="uil uil-envelope-edit contact__icon"></i>
+
+					<div>
+						<h3 class="contact__title">Email Me</h3>
+						<span class="contact__subtitle"></span>
+					</div>
+				</div>
+				<div class="contact__information">
+					<i class="uil uil-map-marker contact__icon"></i>
+
+					<div>
+						<h3 class="contact__title">Location</h3>
+						<span class="contact__subtitle">Barcelona - Spain</span>
+					</div>
+				</div>
+			</div>
+
+			<form action="https://formspree.io/f/xwkypppo" method="POST" id="contact--form"
+				class="contact__form grid">
+				<div class="contact__inputs grid">
+					<div class="contact__content">
+						<label for="name" class="contact__label">Name</label>
+						<input autocomplete="off" required type="text" class="contact__input">
+					</div>
+					<div class="contact__content">
+						<label for="email" class="contact__label">Email</label>
+						<input autocomplete="off" required type="email" class="contact__input">
+					</div>
+				</div>
+				<div class="contact__content">
+					<label for="project" class="contact__label">Project</label>
+					<input autocomplete="off" type="text" class="contact__input">
+				</div>
+				<div class="contact__content">
+					<label for="message" class="contact__label">Message</label>
+					<textarea autocomplete="off" required name="message" id="contact-message" cols="0" rows="7"
+						class="contact__input"></textarea>
+				</div>
+				<!-- <div class="g-recaptcha" data-sitekey="6LelKN8eAAAAAJa3mnJAc66OidAIsRqtpBl8gkJx">
+				</div> -->
+
+				<div>
+					<button type="submit" class="button button--flex button--submit">
+						Send Message
+						<i class="uil uil-message button__icon"></i>
+					</button>
+				</div>
+			</form>
+		</div>
+	</section>
+</main>
+
+<!--==================== FOOTER ====================-->
+<footer class="footer">
+	<div class="footer__bg">
+		<div class="footer__container container grid">
+			<div>
+				<h1 class="footer__title">Ignacio</h1>
+					<p class="footer__subtitle">Full-stack web developer</p>
+					<p class="footer__subtitle">Front-end web developer</p>
+					<p class="footer__subtitle">Back-end web developer</p>
+					<p class="footer__subtitle">Laravel web developer</p>
+					<p class="footer__subtitle">Barcelona web developer</p>
+			</div>
+
+			<ul class="footer__links">
+				<li>
+					<a href="#services" class="footer__link">Services</a>
+					<a href="#portfolio" class="footer__link">Portfolio</a>
+					<a href="#contact" class="footer__link">Contact</a>
+				</li>
+			</ul>
+
+			<div class="footer__socials">
+				<a href="https://github.com/ignaaaam/" target="_blank" class="footer__social">
+					<i class="uil uil-github-alt social--icon"></i>
+				</a>
+				<a href="https://www.linkedin.com/in/ignacio-amat-urbina-789244223/" target="_blank"
+					class="footer__social">
+					<i class="uil uil-linkedin-alt social--icon"></i>
+				</a>
+				<a href="https://www.behance.net/igna21df" target="_blank" class="footer__social">
+					<i class="uil uil-behance social--icon"></i>
+				</a>
+				<a href="https://twitter.com/ignaamm/" target="_blank" class="footer__social">
+					<i class="uil uil-twitter-alt social--icon"></i>
+				</a>
+			</div>
+		</div>
+
+		<p class="footer__copy">&#169; Ignacio Amat Urbina. All rights reserved</p>
+
+		<div class="footer__coffee">
+			<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="ignasiamatz" data-color="#5F7FFF" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
+		</div>
+</footer>
+
+<!--==================== SCROLL TOP ====================-->
+<a href="#" class="scrollup" id="scroll-up">
+	<i class="uil uil-arrow-up scrollup__icon"></i>
+</a>
+
+<!--==================== SWIPER JS ====================-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<!--==================== MAIN JS ====================-->
+<script src="/js/main.min.js"></script>
 </Layout>
 
 <style>
-	main {
-		margin: auto;
-		padding: 1rem;
-		width: 800px;
-		max-width: calc(100% - 2rem);
-		color: white;
-		font-size: 20px;
-		line-height: 1.6;
+/*==================== REUSABLE CSS CLASSES ====================*/
+.section {
+    padding: 2rem 0 4rem;
+}
+
+.section__title {
+    font-size: var(--h1-font-size);
+}
+
+.section__subtitle {
+    display: block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-3);
+}
+
+.section__title, 
+.section__subtitle {
+    text-align: center;
+}
+
+/*==================== LAYOUT ====================*/
+.container {
+    max-width: 768px;
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    background-color: var(--body-color);
+    transition: all 1.5s ease-in-out;
+}
+
+/*==================== NAV ====================*/
+.nav {
+    max-width: 968px;
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo,
+.nav__toggle {
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    transition: color .5s;
+}
+
+.nav__logo:hover {
+    color: var(--first-color);
+}
+
+.nav__toggle {
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.nav__toggle:hover {
+    color: var(--first-color);
+}
+
+@media screen and (max-width: 767px){
+    .nav__menu{
+        position: fixed;
+        bottom: -100%;
+        left: 0;
+        width: 100%;
+        background-color: var(--body-color);
+        padding: 2rem 1.5rem 4rem;
+        box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
+        border-radius: 1.5rem 1.5rem 0 0;
+        transition: .3s;
+    }
+}
+
+.nav__list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.nav__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+}
+
+.nav__link:hover {
+    color: var(--first-color);
+}
+
+.nav__icon {
+    font-size: 1.2rem;
+}
+
+.nav__close {
+    position: absolute;
+    right: 1.8rem;
+    bottom: .5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--first-color);
+}
+
+.nav__close:hover {
+    color: var(--first-color-alt);
+}
+
+/* show menu */
+.show-menu {
+    bottom: 0;
+}
+
+/* Active link */
+.active-link {
+    color: var(--first-color);
+}
+
+/* Change background header */
+.scroll-header {
+    transition: 1.5s;
+    transition-timing-function: ease-in-out;
+    box-shadow: 0 -1.5px 12px rgba(0, 0, 0, 0.25)
+}
+
+/*==================== HOME ====================*/
+.home__container {
+    gap: 6rem;
+}
+
+.home__content {
+    grid-template-columns: .5fr 3fr;
+    padding-top: 3.5rem;
+    align-items: center;
+}
+
+.home__social {
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: 1rem;
+}
+
+.home__social-icon {
+    font-size: 1.25rem;
+    color: var(--first-color);
+}
+
+.home__social-icon:hover{
+    color: var(--first-color-alt);
+}
+
+.home__blob{
+    width: 200px;
+    fill: var(--first-color);
+    animation: float 6s ease-in-out infinite;
+}
+
+.home__blob-img {
+    width: 210px;
+}
+
+.home__data {
+    grid-column: 1/4;
+}
+
+.home__title {
+    font-size: var(--big-font-size);
+    width: 380px;
+}
+
+.home__subtitle {
+    font-size: var(--h3-font-size);
+    color: var(--text-color);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-75);
+}
+
+.home__description {
+    margin-bottom: var(--mb-2);
+}
+
+.home__description__link {
+    text-decoration: underline;
+    font-size: large;
+    color: inherit;
+    transition: all .3s ease-in-out;
+}
+
+.home__description__link:hover {
+    font-size: x-large;
+    color: inherit;
+}
+
+.astro-link {
+
+    text-decoration: underline;
+    font-size: large;
+    color: inherit;
+    transition: all .3s ease-in-out;
+}
+
+.astro-link:hover {
+    font-size: x-large;
+    color: inherit;
+}
+
+#astro-link {
+    color: #FF7E33;
+}
+
+#laravel-link {
+    color: #F93F3A;
+}
+
+#inertia-link {
+    color: #4A1394;
+}
+
+#vue-link {
+    color: #41B883;
+}
+
+#tailwind-link {
+    color: #0677a9;
+}
+
+.home__scroll {
+    display: none;
+}
+
+.home__scroll-button {
+    color: var(--first-color);
+    transition: .3s;
+}
+
+.home__scroll-button:hover {
+    transform: translateY(.25rem);
+}
+
+.home__scroll-mouse {
+    font-size: 2rem;
+}
+.home__scroll-name {
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    margin-right: var(--mb-0-25);
+}
+
+.home__scroll-arrow {
+    font-size: 1.5rem;
+}
+/*==================== BUTTONS ====================*/
+.button {
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #FFF;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-weight: var(--font-medium);
+    border: none;
+}
+
+.button:hover {
+    background-color: var(--first-color-alt);
+    transition: .3s;
+}
+
+.button__icon {
+    font-size: 1.25rem;
+    margin-left: var(--mb-0-5);
+    transition: .3s;
+}
+
+.button--white {
+    background-color: #fff;
+    color: var(--first-color);
+    transition: transform 500ms;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
+}
+
+.button--white:hover {
+    background-color: #FFF;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, .15);
+}
+
+.button--flex {
+    display: inline-flex;
+    align-items: center;
+}
+
+.button--submit {
+    font-family: var(--body-font);
+    cursor: pointer;
+    border: none;
+}
+
+.button--small {
+    padding: .75rem 1rem;
+}
+
+.button--link {
+    padding: 0;
+    background-color: transparent;
+    color: var(--first-color);
+}
+
+.button--link:hover {
+    background-color: transparent;
+    color: var(--first-color-alt);
+}
+
+/*==================== ABOUT ====================*/
+.about__img {
+    width: 200px;
+    border-radius: .5rem;
+    justify-self: center;
+    align-self: center;
+}
+
+.about__description {
+    text-align: left;
+    margin-bottom: var(--mb-2-5);
+}
+
+.about__info {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2-5);
+}
+
+.about__info-title {
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color);
+}
+
+.about__info-name {
+    font-size: var(--smaller-font-size);
+}
+
+.about__info-title,
+.about__info-name {
+    display: block;
+    text-align: center;
+}
+
+.about__buttons {
+    display: flex;
+    justify-content: center;
+}
+
+/*==================== SKILLS ====================*/
+.skills__container {
+    row-gap: 0;
+}
+
+.skills__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--mb-2-5);
+    cursor: pointer;
+}
+
+.skills__icon,
+.skills__arrow {
+    font-size: 2rem;
+    color: var(--first-color);
+}
+
+.skills__icon {
+    margin-right: var(--mb-0-75);
+}
+
+.skills__title {
+    font-size: var(--h3-font-size);
+}
+
+.skills__subtitle {
+    font-size: var(--small-font-size);
+    color: var(--text-color-light);
+}
+
+.skills__arrow {
+    margin-left: auto;
+    transition: .4s;
+}
+
+.skills__list {
+    row-gap: 1.5rem;
+    padding-left: 2.7rem;
+}
+
+.skills__titles {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--mb-0-5);
+}
+
+.skills__name {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.skills__bar,
+.skills__percentage {
+    height: 5px;
+    border-radius: .25rem;
+}
+
+.skills__bar {
+    background-color: var(--first-color-lighter);
+}
+
+.skills__percentage {
+    display: block;
+    background-color: var(--first-color);
+}
+
+.skills__html {
+    width: 95%;
+}
+.skills__css {
+    width: 80%;
+}
+.skills__js {
+    width: 65%;
+}
+
+.skills__tw {
+    width: 90%;
+}
+
+.skills__bootstrap {
+    width: 60%;
+}
+
+.skills__react {
+    width: 0%;
+}
+.skills__php {
+    width: 80%;
+}
+.skills__laravel {
+    width: 85%;
+}
+.skills__figma {
+    width: 80%;
+}
+.skills__photoshop {
+    width: 50%;
+}
+.skills__adobexd {
+    width: 60%;
+}
+.skills__illustrator {
+    width: 30%;
+}
+.skills__aftereffects {
+    width: 45%;
+}
+
+.skills__close .skills__list {
+    height: 0;
+    overflow: hidden;
+}
+ .skills__open .skills__list {
+     height: max-content;
+     margin-bottom: var(--mb-2-5);
+ }
+
+ .skills__open .skills__arrow {
+     transform: rotate(-180deg);
+ }
+
+/*==================== QUALIFICATION ====================*/
+.qualification__tabs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.qualification__button {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    cursor: default;
+    padding-bottom: var(--mb-1-5);
+}
+
+.qualification__button:hover {
+    color: var(--first-color);
+    transition: .3s;
+}
+
+.qualification__icon {
+    font-size: 1.8rem;
+    margin-right: var(--mb-0-25);
+}
+
+.qualification__data {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+
+.qualification__title {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.qualification__subtitle {
+    display: inline-block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-1);
+}
+
+.qualification__calendar {
+    font-size: var(--smaller-font-size);
+    color: var(--text-color-light);
+    padding-bottom: 4re;
+}
+
+.qualification__rounder {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: var(--first-color);
+    border-radius: 50%;
+}
+
+.qualification__line {
+    display: block;
+    width: 1px;
+    height: 105%;
+    background-color: var(--first-color);
+    transform: translate(7px, -12px);
+}
+
+.qualification [data-content]{
+    display: none;
+}
+
+.qualification__active[data-content]{
+    display: block;
+}
+
+.qualification__separation {
+    margin-bottom: 1rem;
+}
+
+.job__link {
+    transition: all .4s ease-in-out;
+    text-decoration: none;
+    color: var(--title-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+.job__link:hover {
+    text-decoration-line: none;
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+/*==================== CERTIFICATION ====================*/
+.certification__tabs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.certification__button {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    cursor: default;
+    padding-bottom: var(--mb-1-5);
+}
+
+.certification__button:hover {
+    color: var(--first-color);
+    transition: .3s;
+}
+
+.certification__icon {
+    font-size: 1.8rem;
+    margin-right: var(--mb-0-25);
+}
+
+.certification__data {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+
+.certification__title {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    margin-top: var(--mb-0-75);
+}
+
+.certification__subtitle {
+    display: inline-block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-1);
+}
+
+.certification__calendar {
+    font-size: var(--smaller-font-size);
+    color: var(--text-color-light);
+}
+
+.certification__rounder {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: var(--first-color);
+    border-radius: 50%;
+    margin-top: var(--mb-1)
+}
+
+.certification__line {
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: var(--first-color);
+    transform: translate(6px, -7px);
+}
+
+/* .certification [data-content]{
+    display: none;
+} */
+
+/* .certification__active[data-content]{
+    display: block;
+} */
+
+/*==================== SERVICES ====================*/
+.services__container {
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.services__content {
+    position: relative;
+    background-color: var(--container-color);
+    padding: 3.5rem .5rem 1.25rem 1.5rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
+    transition: all .5s;
+}
+
+.services__content:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, .25);
+}
+
+.services__icon {
+    display: block;
+    font-size: 1.5rem;
+    color: var(--first-color);
+    margin-bottom: var(--mb-1);
+}
+
+.services__title{
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-1);
+    font-weight: var(--font-medium);
+}
+
+.services__button {
+    cursor: pointer;
+    font-size: var(--small-font-size);
+}
+
+.services__button:hover .button__icon {
+    transform: translateX(.25rem);
+}
+
+.services__modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    z-index: var(--z-modal);
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.services__modal-content{
+    position: relative;
+    background-color: var(--container-color);
+    padding: 1.5rem;
+    border-radius: .5rem;
+    
+}
+
+.services__modal-services {
+    row-gap: 1rem;
+}
+
+.services__modal-service{
+    display: flex;
+}
+
+.services__modal-title {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-1-5);
+}
+
+.services__modal-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    color: var(--first-color);
+    cursor: pointer;
+}
+
+.services__modal-icon {
+    color: var(--first-color);
+    margin-right: var(--mb-0-25);
+}
+
+/* Active Modal */
+.active-modal {
+    opacity: 1;
+    visibility: visible;
+}
+
+/*==================== PORTFOLIO ====================*/
+.portfolio__container {
+    overflow: initial;
+}
+
+.portfolio__content {
+    padding: 0 1.5rem;
+}
+
+.portfolio__img {
+    width: 296px;
+    border-radius: .5rem;
+    justify-self: center;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .30);
+    transition: .3s;
+}
+
+.portfolio__img:hover {
+    transform: translateX(5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, .30);
+}
+
+.portfolio__title {
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-0-5);
+}
+
+.portfolio__description {
+    margin-bottom: var(--mb-0-75);
+}
+
+.portfolio__button:hover .button__icon {
+    transform: translateX(.25rem);
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    content: '';
+}
+
+.swiper-portfolio-icon {
+    font-size: 2rem;
+    color: var(--first-color);
+}
+
+.swiper-button-prev {
+    left: -.5rem;
+    margin-top: -5rem;
+}
+
+.swiper-button-next {
+    right: -.5rem;
+    margin-top: -5rem;
+}
+
+.swiper-pagination-portfolio {
+    margin-bottom: -50px;
+}
+.swiper-pagination-bullet {
+    margin: 5px;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets{
+    bottom: -2.5rem;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--first-color);
+}
+
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-pagination-bullet {
+    outline: none;
+}
+
+
+/*==================== PROJECT IN MIND ====================*/
+.project {
+    text-align: center;
+}
+
+.project__bg {
+    background-color: var(--first-color-second);
+    padding-top: 3rem;
+}
+
+.project__title {
+    font-size: var(--h2-font-size);
+    margin-bottom: var(--mb-0-75);
+}
+
+.project__description {
+    margin-bottom: var(--mb-1-5);
+}
+
+.project__title,
+.project__description {
+    color: #FFF;
+}
+
+.project_img {
+    width: 232px;
+    justify-self: center;
+}
+
+/*==================== TESTIMONIAL ====================*/
+.testimonial__data,
+.testimonial__header{
+    display: flex;
+}
+
+.testimonial__data {
+    justify-content: space-between;
+    margin-bottom: var(--mb-1);
+}
+
+.testimonial__img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: var(--mb-0-75);
+}
+
+.testimonial__name {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+}
+
+.testimonial__client {
+    font-size: var(--small-font-size);
+    color: var(--text-color-light);
+}
+
+.testimonial__description {
+    margin-bottom: var(--mb-2-5);
+}
+
+.testimonial__icon-star {
+    color: var(--first-color);
+}
+
+.swiper-container .swiper-pagination-testimonial {
+    bottom: 0;
+}
+
+/*==================== CONTACT ME ====================*/
+.contact__container {
+    row-gap: 3rem;
+}
+
+.contact__information {
+    display: flex;
+    margin-bottom: var(--mb-2);
+}
+
+.contact__icon {
+    font-size: 2rem;
+    color: var(--first-color);
+    margin-right: var(--mb-0-75);
+}
+
+.contact__title {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+}
+
+.contact__subtitle {
+    font-size: var(--small-font-size);
+    color: var(--text-color-light);
+}
+
+.contact__content {
+    background-color: var(--input-color);
+    transition: all 1.5s ease-in-out;
+    border-radius: .5rem;
+    padding: .75rem 1rem .25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__label {
+    font-size: var(--smaller-font-size);
+    transition: all 1.5s ease-in-out;
+    color: var(--title-color);
+}
+
+.contact__input {
+    width: 100%;
+    background-color: var(--input-color);
+    color: var(--text-color);
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    border: none;
+    outline: none;
+    padding: .25rem .5rem .5rem 0;
+    transition: all 1.5s ease-in-out;
+}
+
+/*==================== FOOTER ====================*/
+.footer {
+    padding-top: 2rem;
+}
+
+.footer__container {
+    row-gap: 3.5rem;
+}
+
+.footer__bg {
+    background-color: var(--first-color-second);
+    padding: 2rem 0 3rem;
+    transition: all 1.5s ease-in-out;
+}
+
+.footer__title {
+    font-size: var(--h1-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+
+.footer__subtitle {
+    line-height: 2;
+    font-size: var(--small-font-size);
+}
+
+.footer__links > li {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.footer__link:hover {
+    color: var(--first-color-lighter);
+}
+
+.footer__social {
+    font-size: 1.25rem;
+    margin-right: var(--mb-1-5);
+}
+
+.footer__social:hover {
+    color: var(--first-color-lighter);
+}
+
+.footer__copy {
+    font-size: var(--smaller-font-size);
+    text-align: center;
+    color: var(--text-color-light);
+    margin-top: var(--mb-3);
+}
+
+.footer__title,
+.footer__subtitle,
+.footer__link,
+.footer__social {
+    color: #fff;
+}
+
+/*========== SCROLL UP ==========*/
+.scrollup {
+    position: fixed;
+    right: 1rem;
+    bottom: -20%;
+    background-color: var(--first-color);
+    opacity: .8;
+    padding: 0 .3rem;
+    border-radius: .4rem;
+    z-index: var(--z-tooltip);
+    transition: .4s;
+}
+
+.scrollup:hover {
+    background-color: var(--first-color-alt);
+}
+
+.scrollup__icon {
+    font-size: 1.5rem;
+    color: #FFF;
+}
+/* Show scroll */
+.show-scroll {
+    bottom: 5rem;
+}
+
+/*========== SCROLL BAR ==========*/
+
+::-webkit-scrollbar{
+    width: .60rem;
+    background-color: var(--scroll-bar-color);
+    border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-thumb-color);
+    border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--text-color-light);
+}
+
+.footer__coffee {
+    margin-top: 25px;
+    display: grid;
+    place-items: center;
+}
+
+
+/*==================== MEDIA QUERIES ====================*/
+/* For small devices */
+@media screen and (max-width: 350px){
+    .container {
+        margin-left: var(--mb-1);
+        margin-right: var(--mb-1);
+    }
+
+    .nav__menu {
+        padding: 2rem .25rem 4rem;
+    }
+
+    .nav__list {
+        column-gap: 0;
+    }
+
+    .home__content{
+        grid-template-columns: .25fr 3fr;
+    }
+
+    .home__blob {
+        width: 180px;
+    }
+
+    .skills__title {
+        font-size: var(--normal-font-size);
+    }
+
+    .qualification__data {
+        gap: .5rem;
+    }
+
+    .qualification__title {
+        font-size: var(--small-font-size);
+    }
+
+    .certification__data {
+        gap: .5rem;
+    }
+
+    .certification__title {
+        font-size: var(--small-font-size);
+    }
+
+    .services__container {
+        grid-template-columns: max-content;
+        justify-content: center;
+    }
+
+    .services__content {
+        padding-right: 3.5rem;
+    }
+
+    .services__modal {
+        padding: 0 .5rem;
+    }
+
+    .project__img {
+        width: 200px;
+    }
+
+    .testimonial__data,
+    .testimonial__header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .testimonial__img {
+        margin-right: 0;
+        margin-bottom: var(--mb-0-25);
+    }
+    .testimonial__data,
+    .testimonial__description {
+        text-align: center;
+    }
+}
+
+/* For medium devices */
+@media screen and (min-width: 568px){
+    .home__content {
+        grid-template-columns: max-content 1fr 1fr;
+    }
+
+    .home__data {
+        grid-column: initial;
+    }
+    .home__img {
+        order: 1;
+        justify-self: center;
+    }
+
+    .about__container,
+    .skills__container,
+    .portfolio__content,
+    .project__container,
+    .contact__container,
+    .footer__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .swiper-button-prev {
+        left: -.7rem;
+        margin-top: -2rem;
+    }
+    
+    .swiper-button-next {
+        right: -.7rem;
+        margin-top: -2rem;
+    }
+
+    .portfolio__img {
+        width: 450px;
+        margin-top: 25px;
+    }
+
+    .outdoors__img {
+        margin-top: 45px;
+    }
+
+    .qualification__title {
+        font-size: var(--normal-font-size);
+    }
+    .certification__title {
+        font-size: var(--normal-font-size);
+    }
+
+    .qualification__sections {
+        display: grid;
+        grid-template-columns: .6fr;
+        justify-content: center;
+    }
+
+    .certification__sections {
+        display: grid;
+        grid-template-columns: .6fr;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .section {
+        padding: 6rem 0 2rem;
+    }
+
+    .section__subtitle {
+        margin-bottom: 4rem;
+    }
+
+    .header {
+        top: 0;
+        bottom: initial;
+    }
+
+    .header,
+    .main,
+    .footer__container {
+        padding: 0 1rem;
+    }
+
+    .nav {
+        height: calc(var(--header-height) + 1.5rem);
+        column-gap: 1rem;
+    }
+    .nav__icon,
+    .nav__close,
+    .nav__toggle {
+        display: none;
+    }
+    .nav__list {
+        display: flex;
+        column-gap: 2rem;
+    }
+    .nav__menu {
+        margin-left: auto;
+    }
+    .change-theme {
+        margin: 0;
+    }
+
+    .home__container {
+        row-gap: 24rem;
+    }
+    .home__content {
+        padding-top: 5.5rem;
+        column-gap: 2rem;
+    }
+    .home__blob {
+        width: 270px;
+    }
+    .home__scroll {
+        display: block;
+    }
+    .home__scroll-button {
+        margin-left: 3rem;
+    }
+
+    .about__container {
+        column-gap: 5rem;
+    }
+    .about__img {
+        width: 350px;
+    }
+    .about__description {
+        text-align: initial;
+    }
+    .about__info {
+        justify-content: space-between;
+    }
+    .about__buttons {
+        justify-content: initial;
+    }
+    .qualification__sections {
+        grid-template-columns: .5fr;
+    }
+
+    .services__container {
+        grid-template-columns: repeat(3,218px);
+        justify-content: center;
+    }
+
+    .services__icon {
+        font-size: 2rem;
+    }
+    .services__content {
+        padding: 6rem 0 2rem 2.5rem;
+    }
+    .services__modal-content {
+        width: 450px;
+    }
+
+    .portfolio__img {
+        width: 320px;
+    }
+    .portfolio__content {
+        align-items: center;
+    }
+
+    .outdoors__img {
+        margin-top: 5px;
+    }
+
+    .project {
+        text-align: initial;
+    }
+    .project__bg {
+        background: none;
+    }
+
+    .project__container {
+        background-color: var(--first-color-second);
+        border-radius: 1rem;
+        padding: 4rem 2.5rem;
+        grid-template-columns: 1fr max-content;
+        column-gap: 3rem;
+    }
+
+    .project__data {
+        padding-top: .8rem;
+    }
+
+    .footer__container {
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .footer__bg {
+        padding: 3rem 0 3.5rem;
+    }
+    .footer__links > li {
+        flex-direction: row;
+        column-gap: 2rem;
+    }
+    .footer__socials {
+        justify-self: flex-end;
+    }
+
+    .footer__copy {
+        margin-top: 4.5rem;
+    }
+}
+
+/* For large devices */
+@media screen and (min-width: 1024px){
+    .header,
+    .main,
+    .footer__container {
+        padding: 0;
+    }
+
+    .home__blob {
+        width: 320px;
+    }
+    .home__social {
+        transform: translateX(-6rem);
+    }
+
+    .services__container {
+        grid-template-columns: repeat(3,238px);
+    }
+
+    .portfolio__content {
+        column-gap: 5rem;
+    }
+
+    .swiper-button-prev {
+        left: -4.5rem;
+        margin-top: -2rem;
+    }
+    
+    .swiper-button-next {
+        right: -4.5rem;
+        margin-top: -2rem;
+    }
+
+    .swiper-portfolio-icon {
+        font-size: 3.5rem;
+    }
+
+    .contact__form {
+        width: 460px;
+    }
+
+    .contact__inputs {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
 	}
-	.astro-a {
-		position: absolute;
-		top: -32px;
-		left: 50%;
-		transform: translatex(-50%);
-		width: 220px;
-		height: auto;
-		z-index: -1;
+	50% {
+		transform: translatey(-20px);
 	}
-	h1 {
-		font-size: 4rem;
-		font-weight: 700;
-		line-height: 1;
-		text-align: center;
-		margin-bottom: 1em;
+	100% {
+		transform: translatey(0px);
 	}
-	.text-gradient {
-		background-image: var(--accent-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 400%;
-		background-position: 0%;
-	}
-	.instructions {
-		margin-bottom: 2rem;
-		border: 1px solid rgba(var(--accent-light), 25%);
-		background: linear-gradient(rgba(var(--accent-dark), 66%), rgba(var(--accent-dark), 33%));
-		padding: 1.5rem;
-		border-radius: 8px;
-	}
-	.instructions code {
-		font-size: 0.8em;
-		font-weight: bold;
-		background: rgba(var(--accent-light), 12%);
-		color: rgb(var(--accent-light));
-		border-radius: 4px;
-		padding: 0.3em 0.4em;
-	}
-	.instructions strong {
-		color: rgb(var(--accent-light));
-	}
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-		gap: 2rem;
-		padding: 0;
-	}
+}
 </style>
