@@ -12,6 +12,8 @@
   "dependencies": {
     "@astrojs/tailwind": "^5.0.1",
     "astro": "^3.2.3",
+    "scrollreveal": "^4.0.9",
+    "swiper": "^10.3.1",
     "tailwindcss": "^3.0.24"
   }
 }
