@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@astrojs/tailwind": "^5.0.2",
+    "@astrojs/vercel": "^5.0.2",
     "@fontsource/twinkle-star": "^5.0.15",
     "astro": "^3.2.4",
     "scrollreveal": "^4.0.9",
