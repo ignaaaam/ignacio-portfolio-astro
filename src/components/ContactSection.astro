@@ -1,0 +1,57 @@
+<section class="contact section" id="contact">
+    <h2 class="section__title">Contact Me</h2>
+    <span class="section__subtitle">Get in touch</span>
+
+    <div class="contact__container container grid">
+        <div>
+            <div class="contact__information">
+                <i class="uil uil-envelope-edit contact__icon"></i>
+
+                <div>
+                    <h3 class="contact__title">Email Me</h3>
+                    <span class="contact__subtitle"></span>
+                </div>
+            </div>
+            <div class="contact__information">
+                <i class="uil uil-map-marker contact__icon"></i>
+
+                <div>
+                    <h3 class="contact__title">Location</h3>
+                    <span class="contact__subtitle">Barcelona - Spain</span>
+                </div>
+            </div>
+        </div>
+
+        <form action="https://formspree.io/f/xwkypppo" method="POST" id="contact--form"
+            class="contact__form grid">
+            <div class="contact__inputs grid">
+                <div class="contact__content">
+                    <label for="name" class="contact__label">Name</label>
+                    <input autocomplete="off" required type="text" class="contact__input" id="name">
+                </div>
+                <div class="contact__content">
+                    <label for="email" class="contact__label">Email</label>
+                    <input autocomplete="off" required type="email" class="contact__input" id="email">
+                </div>
+            </div>
+            <div class="contact__content">
+                <label for="project" class="contact__label">Project</label>
+                <input autocomplete="off" type="text" class="contact__input" id="project">
+            </div>
+            <div class="contact__content">
+                <label for="message" class="contact__label">Message</label>
+                <textarea autocomplete="off" required name="message" id="message contact-message" cols="0" rows="7"
+                    class="contact__input"></textarea>
+            </div>
+            <!-- <div class="g-recaptcha" data-sitekey="6LelKN8eAAAAAJa3mnJAc66OidAIsRqtpBl8gkJx">
+            </div> -->
+
+            <div>
+                <button type="submit" class="button button--flex button--submit">
+                    Send Message
+                    <i class="uil uil-message button__icon"></i>
+                </button>
+            </div>
+        </form>
+    </div>
+</section>
