@@ -1,6 +1,7 @@
 ---
 import '@fontsource/twinkle-star';
 
+
 interface Props {
 	title: string;
 }
@@ -43,7 +44,7 @@ const { title } = Astro.props;
 			<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 
 			<!--==================== SWIPER CSS ====================-->
-			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+			<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" /> -->
 		<title>{title}</title>
 	
 	
@@ -85,7 +86,6 @@ const { title } = Astro.props;
             function gtag(){dataLayer.push(arguments);}
           </script>
         <script>
-            import Swiper from 'swiper'
             import ScrollReveal from 'scrollreveal'
             /*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById('nav-menu'),
@@ -185,42 +185,6 @@ modalClose.forEach((modalClose) => {
         })
     })
 })
-
-/*==================== PORTFOLIO SWIPER  ====================*/
-let swiperPortfolio = new Swiper('.portfolio__container', {
-    loop: true,
-    cssMode: true,
-    grabCursor: true,
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
-});
-
-/*==================== TESTIMONIAL ====================*/
-let swiperTestimonial = new Swiper('.testimonial__container', {
-    loop: true,
-    spaceBetween: 40,
-    grabCursor: true,
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-        dynamicBullets: true,
-    },
-    breakpoints: {
-        568:{
-            slidesPerView: 2,
-        }
-    }
-});
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll('section[id]')

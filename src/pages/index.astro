@@ -63,46 +63,6 @@ import Footer from '../components/Footer.astro';
 </a>
 </Layout>
 
-<script>
-	import Swiper from 'swiper'
-	
-	/*==================== PORTFOLIO SWIPER  ====================*/
-	let swiperPortfolio = new Swiper('.portfolio__container', {
-		loop: true,
-		cssMode: true,
-		grabCursor: true,
-		navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev',
-		},
-		pagination: {
-			el: '.swiper-pagination',
-			clickable: true,
-		},
-	});
-	
-	/*==================== TESTIMONIAL ====================*/
-	let swiperTestimonial = new Swiper('.testimonial__container', {
-		loop: true,
-		spaceBetween: 40,
-		grabCursor: true,
-		navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev',
-		},
-		pagination: {
-			el: '.swiper-pagination',
-			clickable: true,
-			dynamicBullets: true,
-		},
-		breakpoints: {
-			568:{
-				slidesPerView: 2,
-			}
-		}
-	});
-</script>
-
 <style is:global>
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {

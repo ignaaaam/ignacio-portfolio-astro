@@ -89,3 +89,35 @@
         <div class="swiper-pagination swiper-pagination-testimonial"></div>
     </div>
 </section>
+
+<script>
+    
+    import Swiper from 'swiper'
+    import { Navigation, Pagination } from 'swiper/modules';
+
+    
+    import 'swiper/css';
+    import 'swiper/css/navigation';
+    import 'swiper/css/pagination';
+// /*==================== TESTIMONIAL ====================*/
+let swiperTestimonial = new Swiper('.testimonial__container', {
+    modules: [Navigation, Pagination],
+    // loop: true,
+    spaceBetween: 40,
+    grabCursor: true,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        dynamicBullets: true,
+    },
+    breakpoints: {
+        568:{
+            slidesPerView: 2,
+        }
+    }
+});
+</script>
