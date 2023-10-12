@@ -10,11 +10,11 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/tailwind": "^5.0.1",
-    "@fontsource/twinkle-star": "^5.0.14",
-    "astro": "^3.2.3",
+    "@astrojs/tailwind": "^5.0.2",
+    "@fontsource/twinkle-star": "^5.0.15",
+    "astro": "^3.2.4",
     "scrollreveal": "^4.0.9",
     "swiper": "^10.3.1",
-    "tailwindcss": "^3.0.24"
+    "tailwindcss": "^3.3.3"
   }
 }
