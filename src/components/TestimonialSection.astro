@@ -8,8 +8,7 @@
             <div class="testimonial__content swiper-slide">
                 <div class="testimonial__data">
                     <div class="testimonial__header">
-                        <img src="/img/testimonial1.jpg" alt="testimonial1" class="testimonial__img"
-                            loading="lazy">
+                        <img src="/img/testimonial1.jpg" alt="testimonial1" class="testimonial__img" loading="lazy">
 
                         <div>
                             <h3 class="testimonial__name">Dr. Wofford</h3>
@@ -27,19 +26,17 @@
                 </div>
 
                 <p class="testimonial__description">
-                    Ignacio completed the work perfectly. He communicated very well and was diligent in his
-                    efforts. 5 STARS for sure!
+                    Ignacio completed the work perfectly. He communicated very well and was diligent in his efforts. 5 STARS for sure!
                 </p>
             </div>
             <!--==================== TESTIMONIAL 2 ====================-->
             <div class="testimonial__content swiper-slide">
                 <div class="testimonial__data">
                     <div class="testimonial__header">
-                        <img src="/img/testimonial2.jpg" alt="testimonial2" class="testimonial__img"
-                            loading="lazy">
+                        <img src="/img/testimonial2.jpg" alt="testimonial2" class="testimonial__img" loading="lazy">
 
                         <div>
-                            <h3 class="testimonial__name">Arash Akhavan </h3>
+                            <h3 class="testimonial__name">Arash Akhavan</h3>
                             <span class="testimonial__client">Client</span>
                         </div>
                     </div>
@@ -61,8 +58,7 @@
             <div class="testimonial__content swiper-slide">
                 <div class="testimonial__data">
                     <div class="testimonial__header">
-                        <img src="/img/testimonial3.jpg" alt="testimonial3" class="testimonial__img"
-                            loading="lazy">
+                        <img src="/img/testimonial3.jpg" alt="testimonial3" class="testimonial__img" loading="lazy">
 
                         <div>
                             <h3 class="testimonial__name">Raul Harris</h3>
@@ -80,8 +76,7 @@
                 </div>
 
                 <p class="testimonial__description">
-                    Definitely worth the investment. I'd be lost without Ignacio. It's exactly what I've been
-                    looking for.
+                    Definitely worth the investment. I'd be lost without Ignacio. It's exactly what I've been looking for.
                 </p>
             </div>
         </div>
@@ -91,33 +86,34 @@
 </section>
 
 <script>
-    
-    import Swiper from 'swiper'
-    import { Navigation, Pagination } from 'swiper/modules';
+    import Swiper from 'swiper';
+    import { Pagination, Navigation } from 'swiper/modules';
 
-    
     import 'swiper/css';
-    import 'swiper/css/navigation';
     import 'swiper/css/pagination';
-// /*==================== TESTIMONIAL ====================*/
-let swiperTestimonial = new Swiper('.testimonial__container', {
-    modules: [Pagination],
-    // loop: true,
-    spaceBetween: 40,
-    grabCursor: true,
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-        dynamicBullets: true,
-    },
-    breakpoints: {
-        568:{
-            slidesPerView: 2,
-        }
-    }
-});
+    import 'swiper/css/navigation';
+
+    /*==================== TESTIMONIAL ====================*/
+    let swiperTestimonial = new Swiper('.testimonial__container', {
+        modules: [Pagination, Navigation ],
+        spaceBetween: 35,
+        grabCursor: true,
+        navigation: {
+            nextEl: '.swiper-button-next2',
+            prevEl: '.swiper-button-prev2',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+            dynamicBullets: true,
+        },
+        breakpoints: {
+            568: {
+                slidesPerView: 2,
+            },
+        },
+        autoplay: {
+            delay: 1000,
+        },
+    });
 </script>

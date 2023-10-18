@@ -302,6 +302,11 @@ import Footer from '../components/Footer.astro';
     color: #0677a9;
 }
 
+.textJS {
+    color: #FFEE58;
+    font-weight:bold
+}
+
 .home__scroll {
     display: none;
 }
@@ -871,6 +876,20 @@ import Footer from '../components/Footer.astro';
     margin-top: -5rem;
 }
 
+.swiper-button-prev2::after,
+.swiper-button-next2::after {
+    content: '';
+}
+.swiper-button-prev2 {
+    left: -.5rem;
+    margin-top: -5rem;
+}
+
+.swiper-button-next2 {
+    right: -.5rem;
+    margin-top: -5rem;
+}
+
 .swiper-pagination-portfolio {
     margin-bottom: -50px;
 }
@@ -1035,9 +1054,15 @@ import Footer from '../components/Footer.astro';
     margin-bottom: var(--mb-0-25);
 }
 
-.footer__subtitle {
+.footer__subtitle1 {
+    color: #fff;
     line-height: 2;
     font-size: var(--small-font-size);
+}
+.footer__subtitle2 {
+    color: #fff;
+    line-height: 2;
+    font-size: var(--smaller-font-size);
 }
 
 .footer__links > li {
@@ -1312,7 +1337,7 @@ import Footer from '../components/Footer.astro';
     }
 
     .home__container {
-        row-gap: 24rem;
+        row-gap: 3.5rem;
     }
     .home__content {
         padding-top: 5.5rem;
