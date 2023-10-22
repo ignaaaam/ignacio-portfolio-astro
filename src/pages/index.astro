@@ -547,17 +547,24 @@ import Footer from '../components/Footer.astro';
     width: 45%;
 }
 
+.skills__content {
+    transition: all .5s ease-in-out;
+}
+
 .skills__close .skills__list {
-    height: 0;
+    max-height: 0;
     overflow: hidden;
+    transition: max-height 0.3s ease-in-out; /* Add transition property */
 }
  .skills__open .skills__list {
-     height: max-content;
      margin-bottom: var(--mb-2-5);
+     max-height: 1000px; /* Adjust this value based on your content */
+    transition: max-height 0.3s ease-in-out; /* Add the same transition property *//* Add transition property */
  }
 
  .skills__open .skills__arrow {
      transform: rotate(-180deg);
+     transition: all 0.3s ease-in-out; /* Add transition property */
  }
 
 /*==================== QUALIFICATION ====================*/
