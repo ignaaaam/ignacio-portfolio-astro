@@ -1,11 +1,15 @@
 ---
+import { getLangFromUrl } from '../i18n/utils';
+import '../styles/utils.css'
+
+const lang = getLangFromUrl(Astro.url);
 interface Props {
 	title: string;
 }
 const { title } = Astro.props;
 ---
 <!doctype html>
-<html lang="en">
+<html lang={lang}>
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="description" content="Passionate full-stack web developer based in Barcelona, offering full stack web development and design services." />
@@ -51,7 +55,6 @@ const { title } = Astro.props;
 	</head>
 	<body>
 		<slot />
-
         <!-- Global site tag (gtag.js) - Google Analytics -->
 		<script type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=G-VZQ07QHFLN"></script>
 		<script type="text/partytown">

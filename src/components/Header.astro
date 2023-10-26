@@ -1,5 +1,10 @@
 ---
+import LanguagePicker from '../components/LanguagePicker.astro';
 
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
 <!--==================== HEADER ====================-->
@@ -43,6 +48,10 @@
 			<div class="nav__toggle" id="nav-toggle">
 				<i class="uil uil-apps"></i>
 			</div>
+		</div>
+		<div class="nav__btns">
+			<!-- LANGUAGE SWITCHER -->
+			<LanguagePicker />
 		</div>
 	</nav>
 </header>

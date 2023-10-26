@@ -1,0 +1,17 @@
+---
+import { languages } from '../i18n/ui';
+---
+
+
+<ul class="language-container">
+  {Object.entries(languages).map(([lang, label]) => (
+    <li>
+      <a class="language-switcher" href={`/${lang === 'es' ? 'es' : ''}`}>{lang}</a>
+    </li>
+ 
+  ))}
+</ul>
+
+<script >
+  export const currentLanguage = document.documentElement.lang || 'en';
+</script>

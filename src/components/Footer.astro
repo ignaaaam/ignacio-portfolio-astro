@@ -1,41 +1,47 @@
+---
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
 <footer class="footer">
-	<div class="footer__bg">
-		<div class="footer__container container grid">
-			<div>
-				<h1 class="footer__title">Ignacio Amat Urbina</h1>
-				<h2 class="footer__subtitle1">Full Stack Web Developer</h2>
-				<p class="footer__subtitle2">Laravel Enthusiast in Barcelona, Spain</p>
-			</div>
+    <div class="footer__bg">
+        <div class="footer__container container grid">
+            <div>
+                <h1 class="footer__title">Ignacio Amat Urbina</h1>
+                <h2 class="footer__subtitle1">{t('footer.subtitle')}</h2>
+                <p class="footer__subtitle2">{t('footer.subtitle2')}</p>
+            </div>
 
-			<ul class="footer__links">
-				<li>
-					<a href="#services" aria-label="Learn more about my Services" class="footer__link">Services</a>
-					<a aria-label="See my Portfolio" href="#portfolio" class="footer__link">Portfolio</a>
-					<a aria-label="Contact me" href="#contact" class="footer__link">Contact</a>
-				</li>
-			</ul>
+            <ul class="footer__links">
+                <li>
+                    <a href="#services" aria-label="Learn more about my Services" class="footer__link">{t('footer.services')}</a>
+                    <a aria-label="See my Portfolio" href="#portfolio" class="footer__link">{t('footer.portfolio')}</a>
+                    <a aria-label="Contact me" href="#contact" class="footer__link">{t('footer.contact')}</a>
+                </li>
+            </ul>
 
-			<div class="footer__socials">
-				<a aria-label="Visit my GitHub profile" href="https://github.com/ignaaaam/" target="_blank" class="footer__social">
-					<i class="uil uil-github-alt social--icon"></i>
-				</a>
-				<a aria-label="Visit my LinkedIn profile" href="https://www.linkedin.com/in/ignacio-amat-urbina-789244223/" target="_blank"
-					class="footer__social">
-					<i class="uil uil-linkedin-alt social--icon"></i>
-				</a>
-				<a aria-label="Visit my Behance profile" href="https://www.behance.net/igna21df" target="_blank" class="footer__social">
-					<i class="uil uil-behance social--icon"></i>
-				</a>
-				<a aria-label="Visit my Twitter profile" href="https://twitter.com/ignaamm/" target="_blank" class="footer__social">
-					<i class="uil uil-twitter-alt social--icon"></i>
-				</a>
-			</div>
-		</div>
+            <div class="footer__socials">
+                <a aria-label="Visit my GitHub profile" href="https://github.com/ignaaaam/" target="_blank" class="footer__social">
+                    <i class="uil uil-github-alt social--icon"></i>
+                </a>
+                <a aria-label="Visit my LinkedIn profile" href="https://www.linkedin.com/in/ignacio-amat-urbina-789244223/" target="_blank"
+                    class="footer__social">
+                    <i class="uil uil-linkedin-alt social--icon"></i>
+                </a>
+                <a aria-label="Visit my Behance profile" href="https://www.behance.net/igna21df" target="_blank" class="footer__social">
+                    <i class="uil uil-behance social--icon"></i>
+                </a>
+                <a aria-label="Visit my Twitter profile" href="https://twitter.com/ignaamm/" target="_blank" class="footer__social">
+                    <i class="uil uil-twitter-alt social--icon"></i>
+                </a>
+            </div>
+        </div>
 
-		<p class="footer__copy">&#169; Ignacio Amat Urbina. All rights reserved. Back End Developer in Barcelona, Spain.</p>
+        <p class="footer__copy">{t('footer.copy')}</p>
 
-		<div class="footer__coffee">
-			<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="ignasiamatz" data-color="#5F7FFF" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
-		</div>
-	</div>
+        <div class="footer__coffee">
+            <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="ignasiamatz" data-color="#5F7FFF" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00"></script>
+        </div>
+    </div>
 </footer>

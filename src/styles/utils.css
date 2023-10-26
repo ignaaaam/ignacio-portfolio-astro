@@ -139,7 +139,6 @@ img {
     height: auto;
 }
 
-<style is:global>
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
     padding: 2rem 0 4rem;
@@ -209,6 +208,27 @@ img {
 
 .nav__toggle:hover {
     color: var(--first-color);
+}
+
+.language-container {
+    display: flex;
+    gap: 20px;
+    font-size: larger;
+
+    margin-left: 50px;
+}
+
+.language-switcher {
+    display: inline-flex;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: var(--title-color);
+
+    transition: color .2s ease-in-out;
+}
+
+.language-switcher:hover {
+    color: var(--first-color-lighter);
 }
 
 @media screen and (max-width: 767px){
@@ -909,7 +929,7 @@ img {
 }
 
 .portfolio__content {
-    padding: 0 1.5rem;
+    padding: 0 2.5rem;
 }
 
 .portfolio__img {
@@ -927,7 +947,7 @@ img {
 }
 
 .portfolio__title {
-    font-size: var(--h3-font-size);
+    font-size: var(--small-font-size);
     margin-bottom: var(--mb-0-5);
 }
 
@@ -944,6 +964,17 @@ img {
     content: '';
 }
 
+.swiper-button-prev,
+.swiper-button-next {
+    content: '';
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    --swiper-navigation-size: 0px;
+    margin: 0px 0px;
+}
+
 .swiper-portfolio-icon {
     font-size: 2rem;
     color: var(--first-color);
@@ -953,6 +984,7 @@ img {
     left: -.5rem;
     margin-top: -5rem;
 }
+
 
 .swiper-button-next {
     right: -.5rem;
@@ -994,7 +1026,6 @@ img {
     outline: none;
 }
 
-
 /*==================== PROJECT IN MIND ====================*/
 .project {
     text-align: center;
@@ -1025,6 +1056,10 @@ img {
 }
 
 /*==================== TESTIMONIAL ====================*/
+.testimonial__content {
+    padding: 1rem;
+}
+
 .testimonial__data,
 .testimonial__header{
     display: flex;
@@ -1368,6 +1403,11 @@ img {
         grid-template-columns: .6fr;
         justify-content: center;
     }
+
+    .portfolio__title {
+        font-size: var(--h3-font-size);
+        margin-bottom: var(--mb-0-5);
+    }
 }
 
 @media screen and (min-width: 768px){
@@ -1475,6 +1515,8 @@ img {
     }
     .portfolio__content {
         align-items: center;
+
+        padding: 0rem 6rem;
     }
 
     .outdoors__img {
