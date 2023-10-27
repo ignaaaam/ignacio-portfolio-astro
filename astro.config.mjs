@@ -7,10 +7,7 @@ import { astroImageTools } from "astro-imagetools";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [
-    Compress(),
-    astroImageTools,
-  ],
+  integrations: [],
   output: "static",
   adapter: vercel({
     webAnalytics: {
