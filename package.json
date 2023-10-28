@@ -10,7 +10,6 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/tailwind": "^5.0.2",
     "@astrojs/vercel": "^5.1.0",
     "@fontsource/poppins": "^5.0.8",
     "astro": "^3.4.0",

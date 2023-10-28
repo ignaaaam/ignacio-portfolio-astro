@@ -5,9 +5,6 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@astrojs/tailwind':
-    specifier: ^5.0.2
-    version: 5.0.2(astro@3.4.0)(tailwindcss@3.3.5)
   '@astrojs/vercel':
     specifier: ^5.1.0
     version: 5.1.0(astro@3.4.0)
@@ -93,21 +90,6 @@ packages:
     engines: {node: '>=18.14.1'}
     dependencies:
       prismjs: 1.29.0
-    dev: false
-
-  /@astrojs/tailwind@5.0.2(astro@3.4.0)(tailwindcss@3.3.5):
-    resolution: {integrity: sha512-oXqeqmBlkQmsltrsU9nEWeXOtrZIAHW8dcmX7BCdrjzPnU6dPwWzAwhddNQ9ihKiWwsLnlbwQZIo2CDigcZlIA==}
-    peerDependencies:
-      astro: ^3.2.4
-      tailwindcss: ^3.0.24
-    dependencies:
-      astro: 3.4.0(typescript@5.3.0-dev.20231021)
-      autoprefixer: 10.4.16(postcss@8.4.31)
-      postcss: 8.4.31
-      postcss-load-config: 4.0.1(postcss@8.4.31)
-      tailwindcss: 3.3.5
-    transitivePeerDependencies:
-      - ts-node
     dev: false
 
   /@astrojs/telemetry@3.0.4:
@@ -1612,22 +1594,6 @@ packages:
     resolution: {integrity: sha512-tLRNUXati5MFePdAk8dw7Qt7DpxPB60ofAgn8WRhW6a2rcimZnYBP9oxHiv0OHy+Wz7kPMG+t4LGdt31+4EmGg==}
     dev: false
 
-  /autoprefixer@10.4.16(postcss@8.4.31):
-    resolution: {integrity: sha512-7vd3UC6xKp0HLfua5IjZlcXvGAGy7cBAXTg2lyQ/8WpNhd6SiZ8Be+xm3FyBSYJx5GKcpRCzBh7RH4/0dnY+uQ==}
-    engines: {node: ^10 || ^12 || >=14}
-    hasBin: true
-    peerDependencies:
-      postcss: ^8.1.0
-    dependencies:
-      browserslist: 4.22.1
-      caniuse-lite: 1.0.30001554
-      fraction.js: 4.3.7
-      normalize-range: 0.1.2
-      picocolors: 1.0.0
-      postcss: 8.4.31
-      postcss-value-parser: 4.2.0
-    dev: false
-
   /b4a@1.6.4:
     resolution: {integrity: sha512-fpWrvyVHEKyeEvbKZTVOeZF3VSKKWtJxFIxX/jaVPf+cLbGUSitjb49pHLqPV2BUNNZ0LcoeEGfE/YCpyDYHIw==}
     requiresBuild: true
@@ -2437,10 +2403,6 @@ packages:
     dependencies:
       micromatch: 4.0.5
       pkg-dir: 4.2.0
-    dev: false
-
-  /fraction.js@4.3.7:
-    resolution: {integrity: sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==}
     dev: false
 
   /fs-constants@1.0.0:
@@ -3838,11 +3800,6 @@ packages:
   /normalize-path@3.0.0:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
     engines: {node: '>=0.10.0'}
-
-  /normalize-range@0.1.2:
-    resolution: {integrity: sha512-bdok/XvKII3nUpklnV6P2hxtMNrCboOjAcyBuQnWEhO665FwrSNRxU+AqpsyvO6LgGYPspN+lu5CLtw4jPRKNA==}
-    engines: {node: '>=0.10.0'}
-    dev: false
 
   /npm-run-path@5.1.0:
     resolution: {integrity: sha512-sJOdmRGrY2sjNTRMbSvluQqg+8X7ZK61yvzBEIDhz4f8z1TZFYABsqjjCBd/0PUNE9M6QDgHJXQkGUEm7Q+l9Q==}
