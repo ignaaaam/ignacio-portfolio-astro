@@ -19,7 +19,7 @@ export const languages = {
       'nav.skills': 'Skills',
       'nav.services': 'Services',
       'nav.portfolio': 'Projects',
-      'nav.contact': 'Contacto',
+      'nav.contact': 'Contact',
 
       "home.section.title": "Experienced Fullstack Web Developer",
       "home.section.subtitle": "Crafting Digital Excellence",
