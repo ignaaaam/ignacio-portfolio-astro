@@ -199,7 +199,7 @@ export const languages = {
       'footer.portfolio': 'Portfolio',
       'footer.contact': 'Contact',
 
-      'footer.copy': '&#169; Ignacio Amat Urbina. All rights reserved. Back End Developer in Barcelona, Spain.'
+      'footer.copy': '\u00A9 Ignacio Amat Urbina. All rights reserved. Back End Developer in Barcelona, Spain.'
 
 
     },
