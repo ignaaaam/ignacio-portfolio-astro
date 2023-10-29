@@ -1,0 +1,12 @@
+---
+import { Picture } from 'astro:assets';
+import notFoundImage from "/public/img/404Text.png";
+import Header from '../components/Header.astro';
+import '../styles/utils.css'
+---
+<Header />
+<!-- `alt` is mandatory on the Picture component -->
+<div class="imageBox">
+    <img class="notFoundImage" src={notFoundImage.src} width=100% height=100% alt="A not found image" />
+</div>
+
