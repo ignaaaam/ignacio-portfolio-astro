@@ -383,7 +383,7 @@ img {
 }
 
 #laravel-link {
-    color: #F93F3A;
+    color: #9c1c17;
 }
 
 #inertia-link {
@@ -391,7 +391,7 @@ img {
 }
 
 #vue-link {
-    color: #41B883;
+    color: #279563;
 }
 
 #tailwind-link {
@@ -1206,7 +1206,7 @@ img {
 .footer__copy {
     font-size: var(--smaller-font-size);
     text-align: center;
-    color: var(--text-color-light);
+    color: #fff;
     margin-top: var(--mb-3);
 }
 
