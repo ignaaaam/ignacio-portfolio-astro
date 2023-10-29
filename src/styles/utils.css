@@ -353,20 +353,7 @@ img {
     margin-bottom: var(--mb-2);
 }
 
-.home__description__link {
-    text-decoration: underline;
-    font-size: large;
-    color: inherit;
-    transition: all .3s ease-in-out;
-}
-
-.home__description__link:hover {
-    font-size: x-large;
-    color: inherit;
-}
-
 .astro-link {
-
     text-decoration: underline;
     font-size: large;
     color: inherit;
@@ -382,22 +369,44 @@ img {
     color: #FF7E33;
 }
 
-#laravel-link {
+.laravel-link {
     color: #9c1c17;
+    text-decoration: underline;
+}
+.laravel-link:hover {
+    font-size: large;
+    transition: all .3s ease-in-out;
 }
 
-#inertia-link {
+.inertia-link {
     color: #4A1394;
+    text-decoration: underline;
+}
+.inertia-link:hover {
+    font-size: large;
+    transition: all .3s ease-in-out;
 }
 
-#vue-link {
+.vue-link {
     color: #056f31;
+    text-decoration: underline;
+}
+.vue-link:hover {
+
+    font-size: large;
+    transition: all .3s ease-in-out;
 }
 
 #tailwind-link {
     color: #0677a9;
+    text-decoration: underline;
 }
+#tailwind-link:hover {
 
+    font-size: large;
+    color: inherit;
+    transition: all .3s ease-in-out;
+}
 .textJS {
     color: #FFEE58;
     font-weight:bold
