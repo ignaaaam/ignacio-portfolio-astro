@@ -3,10 +3,18 @@ import { Picture } from 'astro:assets';
 import notFoundImage from "/public/img/404Text.png";
 import Header from '../components/Header.astro';
 import '../styles/utils.css'
+import { Icon } from 'astro-icon'
 ---
 <Header />
 <!-- `alt` is mandatory on the Picture component -->
 <div class="imageBox">
+    <div class="back-link-box">
+        <a class="back-link" href="/">
+            <Icon class="back-icon" name="ion:arrow-back-outline" />
+            <span class="back-text">GO BACK</span>
+        </a>
+    </div>
+           
     <img class="notFoundImage" src={notFoundImage.src} width=100% height=100% alt="A not found image" />
 </div>
 

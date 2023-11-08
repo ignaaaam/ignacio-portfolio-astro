@@ -15,6 +15,7 @@
     "@fontsource/poppins": "^5.0.8",
     "astro": "^3.4.3",
     "astro-compress": "^2.2.3",
+    "astro-icon": "^0.8.1",
     "astro-imagetools": "^0.9.0",
     "astro-social-share": "^1.2.1",
     "i18n": "^0.15.1",

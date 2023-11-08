@@ -1274,11 +1274,44 @@ img {
     display: grid;
     place-items: center;
 }
+
+.back-link-box {
+    display: flex;
+    align-items: flex-start;
+    width: 100%; /* Expand the link to take the entire width */
+    justify-content: flex-start; /* Align the content to the left */
+    padding: 0 20px; /* Add some padding to the left of the link */
+}
+
+.back-link {
+    display: flex;
+    align-items: center;
+    width: fit-content; /* Expand the link to take the entire width */
+    justify-content: flex-start; /* Align the content to the left */
+    padding: 0 20px; /* Add some padding to the left of the link */
+    transition: transform .3s ease-in-out;
+}
+
+.back-link:hover {
+   transform: translateX(-10px);
+}
+
+.back-icon {
+    width: 4rem;
+    margin-right: 10px; /* Add space between the icon and the text */
+}
+
+.back-text {
+    font-size: var(--big-font-size);
+    font-weight: bolder;
+}
+
 .imageBox {
-    padding-top: 50px;
+    padding-top: 150px;
     width: 100%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     overflow: hidden;
     align-items: center;
     justify-content: center;
