@@ -99,16 +99,16 @@
 
 <script>
     import Swiper from 'swiper'
-    import { Navigation, Pagination } from 'swiper/modules';
+    import { Navigation, Pagination } from 'swiper/modules'
 
-    import 'swiper/css';
-    import 'swiper/css/navigation';
-    import 'swiper/css/pagination';
+    import 'swiper/css/navigation'
+    import 'swiper/css/pagination'
+    import 'swiper/css'
     /*==================== PORTFOLIO SWIPER  ====================*/
 let swiperPortfolio = new Swiper('.portfolio__container', {
     modules: [Navigation, Pagination],
      loop: true,
-     cssMode: false,
+     cssMode: true,
      grabCursor: true,
      navigation: {
          nextEl: '.swiper-button-next',
