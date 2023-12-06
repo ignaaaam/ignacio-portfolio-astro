@@ -1,7 +1,5 @@
 import { defineConfig } from 'astro/config';
 import vercel from "@astrojs/vercel/static";
-import Compress from "astro-compress";
-import { astroImageTools } from "astro-imagetools";
 // import vercel from "@astrojs/vercel/serverless";
 
 import sitemap from "@astrojs/sitemap";
@@ -10,8 +8,7 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
   site: 'https://ignathedev.com',
   integrations: [
-    sitemap(),
-    Compress()
+    sitemap()
   ],
   output: "static",
   adapter: vercel({

@@ -11,16 +11,13 @@
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.0.3",
-    "@astrojs/vercel": "^5.2.0",
+    "@astrojs/vercel": "^6.0.0",
     "@fontsource/poppins": "^5.0.8",
-    "astro": "^3.6.4",
-    "astro-compress": "^2.2.3",
-    "astro-icon": "^0.8.1",
-    "astro-imagetools": "^0.9.0",
-    "astro-social-share": "^1.2.1",
+    "astro": "^4.0.2",
+    "astro-icon": "^0.8.2",
     "i18n": "^0.15.1",
     "scrollreveal": "^4.0.9",
     "swiper": "^11.0.5",
-    "tailwindcss": "^3.3.5"
+    "tailwindcss": "^3.3.6"
   }
 }
