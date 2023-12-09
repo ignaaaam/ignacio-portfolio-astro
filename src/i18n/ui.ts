@@ -8,11 +8,11 @@ export const languages = {
   
   export const ui = {
     en: {
-      'meta.title': 'Ignacio Amat Urbina - Full Stack Web Developer',
-      'meta.description': 'Passionate full-stack web developer based in Barcelona, offering web development and design services.',
-      'meta.sitename': 'Ignacio Amat Urbina - Full Stack Web Developer',
+      'meta.title': 'Ignacio Amat Urbina - Full Stack Web Developer & Laravel Expert',
+      'meta.description': 'Passionate full-stack web developer & Laravel Expert based in Barcelona, offering web development and design services.',
+      'meta.sitename': 'Ignacio Amat Urbina - Full Stack Web Developer & Laravel Expert',
       'meta.locale': 'en_US',
-      'meta.keywords': 'Full Stack Web Developer, Web Design, Web Development, Barcelona, Spain, Freelance, Laravel, Inertia, Vue 3, SEO, Innovation, Quality',
+      'meta.keywords': 'Full Stack Web Developer, Web Design, Web Development, Barcelona, Spain, Freelance, Laravel, Inertia, Vue 3, SEO, Innovation, Quality, Mid developer, Junior developer',
 
       'nav.home': 'Home',
       'nav.about': 'About',
@@ -204,11 +204,11 @@ export const languages = {
 
     },
     es: {
-    "meta.title": "Ignacio Amat Urbina - Desarrollador Web Full Stack",
-    "meta.description": "Apasionado desarrollador web Full Stack actualmente en Barcelona, ofreciendo servicios de desarrollo web y diseño.",
-    "meta.sitename": "Ignacio Amat Urbina - Desarrollador Web Full Stack",
+    'meta.title': 'Ignacio Amat Urbina - Full Stack Web Developer & Laravel Expert',
+    'meta.description': 'Passionate full-stack web developer & Laravel Expert based in Barcelona, offering web development and design services.',
+    "meta.sitename": "Ignacio Amat Urbina - Desarrollador Web Full Stack & Laravel Expert",
     "meta.locale": "es_ES",
-    "meta.keywords": "Desarrollador Web Full Stack, Diseño Web, Desarrollo Web, Barcelona, España, Freelance, Laravel, Inertia, Vue 3, SEO, Innovación, Calidad",
+    "meta.keywords": "Desarrollador Web Full Stack, Diseño Web, Desarrollo Web, Barcelona, España, Freelance, Laravel, Inertia, Vue 3, SEO, Innovación, Calidad, Desarrollador Mid, Desarrollador Junior",
     "nav.home": "Inicio",
     "nav.about": "Acerca de",
     "nav.skills": "Habilidades",
