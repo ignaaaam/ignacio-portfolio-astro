@@ -18,6 +18,8 @@ export const languages = {
       'nav.about': 'About',
       'nav.skills': 'Skills',
       'nav.services': 'Services',
+      'nav.qualifications': 'Qualifications',
+      'nav.certifications': 'Certifications',
       'nav.portfolio': 'Projects',
       'nav.contact': 'Contact',
 
@@ -213,6 +215,8 @@ export const languages = {
     "nav.about": "Acerca de",
     "nav.skills": "Habilidades",
     "nav.services": "Servicios",
+    "nav.qualifications": "Calificaciones",
+    'nav.certifications': 'Certificationes',
     "nav.portfolio": "Proyectos",
     "nav.contact": "Contacto",
     
