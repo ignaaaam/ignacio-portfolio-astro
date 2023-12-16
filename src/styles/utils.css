@@ -762,6 +762,21 @@ img {
 }
 
 /*==================== CERTIFICATION ====================*/
+.certification__link {
+    transition: all .4s ease-in-out;
+    text-decoration: none;
+    color: var(--title-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+.certification__link:hover {
+    text-decoration-line: none;
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
 .certification__tabs {
     display: flex;
     justify-content: space-evenly;
