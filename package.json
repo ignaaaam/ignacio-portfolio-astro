@@ -11,9 +11,9 @@
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.0.3",
-    "@astrojs/vercel": "^6.0.1",
+    "@astrojs/vercel": "^6.1.0",
     "@fontsource/poppins": "^5.0.8",
-    "astro": "^4.0.3",
+    "astro": "^4.0.6",
     "astro-icon": "^0.8.2",
     "i18n": "^0.15.1",
     "scrollreveal": "^4.0.9",
