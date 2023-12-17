@@ -161,7 +161,7 @@ img {
 
 /*==================== LAYOUT ====================*/
 .container {
-    max-width: 768px;
+    max-width: 60vw;
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
 }
@@ -183,7 +183,7 @@ img {
 
 /*==================== NAV ====================*/
 .nav {
-    max-width: 968px;
+    max-width: 80%;
     height: var(--header-height);
     display: flex;
     justify-content: space-between;
@@ -1525,7 +1525,7 @@ img {
         column-gap: 2rem;
     }
     .nav__menu {
-        margin-left: auto;
+        /* margin-left: auto; */
     }
     .change-theme {
         margin: 0;
