@@ -1,3 +1,8 @@
+---
+import { Image } from 'astro:assets';
+import contactUsImage from '/public/img/Contact-us.png';
+---
+
 <section class="project section">
     <div class="project__bg">
         <div class="project__container container grid" style="padding-bottom: 4rem;">
@@ -10,7 +15,7 @@
                 </a>
             </div>
 
-            <img src="/img/Contact-us.png" alt="Ilustración relacionada con contactarnos" class="project__img" loading="lazy">
+            <Image src={contactUsImage} alt="Ilustración relacionada con contactarnos" class="project__img" />
         </div>
     </div>
 </section>

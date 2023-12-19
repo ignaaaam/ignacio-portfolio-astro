@@ -1,3 +1,12 @@
+---
+import { Image } from 'astro:assets';
+import image1 from '/public/img/entire1.png';
+import image2 from '/public/img/showcase0.png';
+import image3 from '/public/img/showcase1.png';
+import image4 from '/public/img/showcase2.png';
+import image5 from '/public/img/github-showcase.png';
+---
+
 <section class="portfolio section" id="portfolio">
     <h2 class="section__title">Proyectos</h2>
     <span class="section__subtitle">Trabajos más recientes</span>
@@ -6,7 +15,8 @@
         <div class="swiper-wrapper">
             <!--==================== PORTFOLIO 1 ====================-->
             <div class="portfolio__content grid swiper-slide">
-                <img src="/img/entire1.png" alt="Captura de pantalla del sitio web de Omnifood" class="portfolio__img" loading="lazy">
+                <Image src={image1} alt="Captura de pantalla del sitio web de Omnifood" class="portfolio__img" />
+
 
 
                 <div class="portfolio__data">
@@ -21,7 +31,8 @@
             </div>
             <!--==================== PORTFOLIO 2 ====================-->
             <div class="portfolio__content grid swiper-slide">
-                <img src="/img/showcase0.png" alt="Captura de pantalla de un sitio web temático de Halloween" class="portfolio__img" loading="lazy">
+                <Image src={image2} alt="Captura de pantalla de un sitio web temático de Halloween" class="portfolio__img" />
+
 
 
                 <div class="portfolio__data">
@@ -37,7 +48,8 @@
 
             <!--==================== PORTFOLIO 3 ====================-->
             <div class="portfolio__content grid swiper-slide">
-                <img src="/img/showcase1.png" alt="Captura de pantalla del sitio web de Natours" class="portfolio__img outdoors__img" loading="lazy">
+                <Image src={image3} alt="Captura de pantalla del sitio web de Natours" class="portfolio__img outdoors__img" />
+
 
 
                 <div class="portfolio__data">
@@ -53,7 +65,7 @@
 
             <!--==================== PORTFOLIO 4 ====================-->
             <div class="portfolio__content grid swiper-slide">
-                <img src="/img/showcase2.png" alt="Otra captura de pantalla del sitio web de Omnifood" class="portfolio__img" loading="lazy">
+                <Image src={image4} alt="Otra captura de pantalla del sitio web de Omnifood" class="portfolio__img" />
 
 
                 <div class="portfolio__data">
@@ -68,7 +80,7 @@
             </div>
             <!--==================== PORTFOLIO 5 ====================-->
             <div class="portfolio__content grid swiper-slide">
-                <img src="/img/github-showcase.png" alt="Captura de pantalla de mi perfil de GitHub" class="portfolio__img" loading="lazy">
+                <Image src={image5} alt="Captura de pantalla de mi perfil de GitHub" class="portfolio__img" />
 
                 <div class="portfolio__data">
                     <h3 class="portfolio__title">Otros proyectos</h3>

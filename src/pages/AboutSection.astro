@@ -1,9 +1,14 @@
+---
+import { Image } from 'astro:assets';
+import aboutImage from '/public/img/about-nobg.png';
+---
+
 <section class="about section" id="about">
     <h2 class="section__title">About Me</h2>
     <span class="section__subtitle">My introduction</span>
 
     <div class="about__container container grid">
-        <img src="/img/about-nobg.png" alt="Professional headshot of Ignacio Amat Urbina" class="about__img" loading="lazy">
+        <Image src={aboutImage} alt="Professional headshot of Ignacio Amat Urbina" class="about__img" loading="lazy" />
 
         <div class="about__data">
             <p class="about__description"><strong>Full Stack Web Developer</strong> with extensive knowledge and years of

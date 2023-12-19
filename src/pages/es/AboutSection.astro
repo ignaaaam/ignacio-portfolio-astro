@@ -1,9 +1,14 @@
+---
+import { Image } from 'astro:assets';
+import aboutImage from '/public/img/about-nobg.png';
+---
+
 <section class="about section" id="about">
     <h2 class="section__title">Acerca de Mí</h2>
     <span class="section__subtitle">Mi introducción</span>
 
     <div class="about__container container grid">
-        <img src="/img/about-nobg.png" alt="Professional headshot" class="about__img" loading="lazy">
+        <Image src={aboutImage} alt="Professional headshot" class="about__img" />
 
         <div class="about__data">
             <p class="about__description"><strong>Desarrollador Web Full Stack</strong> con amplios conocimientos y años de experiencia, especializado en tecnologías web, diseño UI/UX y entrega de trabajos de alta calidad.</p>

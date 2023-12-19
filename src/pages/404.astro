@@ -1,9 +1,9 @@
 ---
-import { Picture } from 'astro:assets';
+import { Image } from 'astro:assets';
 import notFoundImage from "/public/img/404Text.png";
 import Header from '../components/Header.astro';
 import '../styles/utils.css'
-import { Icon } from 'astro-icon'
+import { Icon } from 'astro-icon' 
 ---
 <Header />
 <!-- `alt` is mandatory on the Picture component -->
@@ -15,6 +15,6 @@ import { Icon } from 'astro-icon'
         </a>
     </div>
            
-    <img class="notFoundImage" src={notFoundImage.src} width=100% height=100% alt="Graphic representing a 404 error page" />
+    <Image class='notFoundImage' src={notFoundImage} alt="Graphic representing a 404 error page" />
 </div>
 

@@ -1,3 +1,10 @@
+---
+import { Image } from 'astro:assets';
+import testimonial1Image from '/public/img/testimonial1.jpg';
+import testimonial2Image from '/public/img/testimonial2.jpg';
+import testimonial3Image from '/public/img/testimonial3.jpg';
+---
+
 <section class="testimonial section">
     <h2 class="section__title">Testimonial</h2>
     <span class="section__subtitle">My client saying</span>
@@ -8,7 +15,8 @@
             <div class="testimonial__content swiper-slide">
                 <div class="testimonial__data">
                     <div class="testimonial__header">
-                        <img src="/img/testimonial1.jpg" alt="Picture of testimonial giver 1" class="testimonial__img" loading="lazy">
+                        <Image src={testimonial1Image} alt="Picture of testimonial giver 1" class="testimonial__img" />
+
 
                         <div>
                             <h3 class="testimonial__name">Dr. Wofford</h3>
@@ -34,7 +42,8 @@
             <div class="testimonial__content swiper-slide">
                 <div class="testimonial__data">
                     <div class="testimonial__header">
-                        <img src="/img/testimonial2.jpg" alt="Picture of testimonial giver 2" class="testimonial__img" loading="lazy">
+                        <Image src={testimonial2Image} alt="Picture of testimonial giver 2" class="testimonial__img" />
+
 
                         <div>
                             <h3 class="testimonial__name">Arash Akhavan </h3>
@@ -59,7 +68,8 @@
             <div class="testimonial__content swiper-slide">
                 <div class="testimonial__data">
                     <div class="testimonial__header">
-                        <img src="/img/testimonial3.jpg" alt="Picture of testimonial giver 3" class="testimonial__img" loading="lazy">
+                        <Image src={testimonial3Image} alt="Picture of testimonial giver 3" class="testimonial__img" />
+
 
                         <div>
                             <h3 class="testimonial__name">Raul Harris</h3>

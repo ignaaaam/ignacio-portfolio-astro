@@ -1,3 +1,12 @@
+---
+import { Image } from 'astro:assets';
+import image1 from '/public/img/entire1.png';
+import image2 from '/public/img/showcase0.png';
+import image3 from '/public/img/showcase1.png';
+import image4 from '/public/img/showcase2.png';
+import image5 from '/public/img/github-showcase.png';
+---
+
 <section class="portfolio section" id="portfolio">
     <h2 class="section__title">Projects</h2>
     <span class="section__subtitle">Most recent work</span>
@@ -6,7 +15,8 @@
         <div class="swiper-wrapper">
             <!--==================== PORTFOLIO 1 ====================-->
             <div class="portfolio__content grid swiper-slide">
-                <img src="/img/entire1.png" alt="Screenshot of the Omnifood website" class="portfolio__img" loading="lazy">
+                <Image src={image1} alt="Screenshot of the Omnifood website" class="portfolio__img" />
+
 
                 <div class="portfolio__data">
                     <h3 class="portfolio__title">Trycat Website (Wordle Game)</h3>
@@ -20,7 +30,8 @@
             </div>
             <!--==================== PORTFOLIO 2 ====================-->
             <div class="portfolio__content grid swiper-slide">
-                <img src="/img/showcase0.png" alt="Screenshot of a Halloween-themed website" class="portfolio__img" loading="lazy">
+                <Image src={image2} alt="Screenshot of a Halloween-themed website" class="portfolio__img" />
+
 
                 <div class="portfolio__data">
                     <h3 class="portfolio__title">Halloween Website</h3>
@@ -37,7 +48,8 @@
 
             <!--==================== PORTFOLIO 3 ====================-->
             <div class="portfolio__content grid swiper-slide">
-                <img src="/img/showcase1.png" alt="Screenshot of the Natours website" class="portfolio__img outdoors__img" loading="lazy">
+                <Image src={image3} alt="Screenshot of the Natours website" class="portfolio__img outdoors__img" />
+
 
                 <div class="portfolio__data">
                     <h3 class="portfolio__title">Natours Website</h3>
@@ -54,7 +66,8 @@
 
             <!--==================== PORTFOLIO 4 ====================-->
             <div class="portfolio__content grid swiper-slide">
-                <img src="/img/showcase2.png" alt="Another screenshot of the Omnifood website" class="portfolio__img" loading="lazy">
+                <Image src={image4} alt="Another screenshot of the Omnifood website" class="portfolio__img" />
+
 
                 <div class="portfolio__data">
                     <h3 class="portfolio__title">Omnifood Website</h3>
@@ -69,7 +82,7 @@
             </div>
             <!--==================== PORTFOLIO 5 ====================-->
             <div class="portfolio__content grid swiper-slide">
-                <img src="/img/github-showcase.png" alt="Screenshot of my GitHub profile" class="portfolio__img" loading="lazy">
+                <Image src={image5} alt="Screenshot of my GitHub profile" class="portfolio__img" />
 
                 <div class="portfolio__data">
                     <h3 class="portfolio__title">Other projects</h3>

@@ -1,3 +1,10 @@
+---
+import { Image } from 'astro:assets';
+import testimonial1Image from '/public/img/testimonial1.jpg';
+import testimonial2Image from '/public/img/testimonial2.jpg';
+import testimonial3Image from '/public/img/testimonial3.jpg';
+---
+
 <section class="testimonial section">
     <h2 class="section__title">Testimonios</h2>
     <span class="section__subtitle">Lo que dicen mis clientes</span>
@@ -8,7 +15,7 @@
             <div class="testimonial__content swiper-slide">
                 <div class="testimonial__data">
                     <div class="testimonial__header">
-                        <img src="/img/testimonial1.jpg" alt="Foto del autor del testimonio 1" class="testimonial__img" loading="lazy">
+                        <Image src={testimonial1Image} alt="Foto del autor del testimonio 1" class="testimonial__img" />
 
 
                         <div>
@@ -34,7 +41,7 @@
             <div class="testimonial__content swiper-slide">
                 <div class="testimonial__data">
                     <div class="testimonial__header">
-                        <img src="/img/testimonial2.jpg" alt="Foto del autor del testimonio 2" class="testimonial__img" loading="lazy">
+                        <Image src={testimonial2Image} alt="Foto del autor del testimonio 2" class="testimonial__img" />
 
 
                         <div>
@@ -60,7 +67,7 @@
             <div class="testimonial__content swiper-slide">
                 <div class="testimonial__data">
                     <div class="testimonial__header">
-                        <img src="/img/testimonial3.jpg" alt="Foto del autor del testimonio 3" class="testimonial__img" loading="lazy">
+                        <Image src={testimonial3Image} alt="Foto del autor del testimonio 3" class="testimonial__img" />
 
                         <div>
                             <h3 class="testimonial__name">Raul Harris</h3>
