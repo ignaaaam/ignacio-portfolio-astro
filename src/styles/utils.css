@@ -161,7 +161,7 @@ img {
 
 /*==================== LAYOUT ====================*/
 .container {
-    max-width: 60vw;
+    max-width: 768px;
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
 }
