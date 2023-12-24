@@ -1,7 +1,7 @@
 import { defineConfig, squooshImageService } from 'astro/config';
 import vercel from "@astrojs/vercel/static";
 import vercel from "@astrojs/vercel/serverless";
-
+import partytown from '@astrojs/partytown';
 import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
@@ -11,7 +11,13 @@ export default defineConfig({
     service: squooshImageService(),
   },
   integrations: [
-    sitemap()
+    sitemap(),
+    partytown({
+      config: {
+        config: { debug: true },
+        forward: ['dataLayer.push'],
+      },
+    }),
   ],
   output: "hybrid",
   adapter: vercel({
