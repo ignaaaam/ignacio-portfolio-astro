@@ -1,6 +1,7 @@
 ---
 import { getLangFromUrl, useTranslations } from '../i18n/utils';
 import '../styles/utils.css'
+import { ViewTransitions } from 'astro:transitions';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -29,6 +30,7 @@ const { title } = Astro.props;
 
      <!-- HTML Meta Tags -->
   <title>Ignacio Amat Urbina - Full Stack Web Developer & Laravel Expert</title>
+  <ViewTransitions />
   <meta name="description" content="Passionate full-stack web developer & Laravel Expert based in Barcelona, offering web development and design services.">
 
   <!-- Facebook Meta Tags -->
